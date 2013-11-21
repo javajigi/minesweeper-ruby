@@ -1,5 +1,6 @@
-require '../lib/money/money'
-require 'test/unit'
+require './helper'
+
+require 'money/money'
 
 class TestMoney < MiniTest::Unit::TestCase
   def test_multiplication
