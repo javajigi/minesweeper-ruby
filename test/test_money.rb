@@ -1,8 +1,8 @@
 require './helper'
 
-require 'money/money'
+require 'test/unit'
 
-class TestMoney < MiniTest::Unit::TestCase
+class TestMoney < Test::Unit::TestCase
   def test_multiplication
     five = Money.dollar(5)
     assert_equal(Money.dollar(10), five * 2)
