@@ -21,4 +21,16 @@ class Square
   def put_mine
     @mined = true
   end
+
+  def win?
+    if @opened && !@mined
+      return true
+    end
+
+    if !@opend && @mined
+      return true
+    end
+
+    return false
+  end
 end

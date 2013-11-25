@@ -16,4 +16,18 @@ class SquareTest < Test::Unit::TestCase
     square.put_mine
     assert_equal(true, square.mine?)
   end
+
+  def test_win_when_open_not_mine
+    square = Square.new
+    assert(!square.win?)
+    square.open
+    assert(square.win?)
+  end
+
+  def test_win_when_close_mine
+    square = Square.new
+    assert(!square.win?)
+    square.put_mine
+    assert(square.win?)
+  end
 end
