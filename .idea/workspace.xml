@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ec1735-a5c8-487f-816b-921f3c0fceff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/grid.rb" afterPath="$PROJECT_DIR$/lib/grid.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/grid_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/helper.rb" afterPath="$PROJECT_DIR$/test/helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/minesweeper-ruby.gemspec" afterPath="$PROJECT_DIR$/minesweeper-ruby.gemspec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/minesweeper-ruby.iml" afterPath="$PROJECT_DIR$/.idea/minesweeper-ruby.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="minesweeper-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385372427771" ignored="false" />
+    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385372543640" ignored="false" />
     <file path="/test_money.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385349946810" ignored="false" />
-    <file path="/minesweeper-ruby.gemspec" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385097993300" ignored="false" />
+    <file path="/minesweeper-ruby.gemspec" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385382113508" ignored="false" />
     <file path="/my_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385096708134" ignored="false" />
     <file path="/your_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385098228217" ignored="false" />
     <file path="/square_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370997363" ignored="false" />
@@ -18,6 +21,7 @@
     <file path="/grid.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385372521015" ignored="false" />
     <file path="/temp.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370971200" ignored="false" />
     <file path="/game_over_error.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385371637566" ignored="false" />
+    <file path="/grid_spec.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385383235642" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,37 +41,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_money.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_money.rb">
+      <file leaf-file-name="grid_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/grid_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+            <state line="16" column="4" selection-start="338" selection-end="338" vertical-scroll-proportion="0.4355717">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.7622505">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/square.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/square_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+            <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -77,6 +63,24 @@
         <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="4" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="minesweeper-ruby.gemspec" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/minesweeper-ruby.gemspec">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="40" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="15" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/money/money.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/my_example_spec.rb" />
@@ -113,14 +116,15 @@
         <option value="$PROJECT_DIR$/test/my_test.rb" />
         <option value="$PROJECT_DIR$/my_test.rb" />
         <option value="$PROJECT_DIR$/test/your_test.rb" />
-        <option value="$PROJECT_DIR$/minesweeper-ruby.gemspec" />
         <option value="$PROJECT_DIR$/test/test_money.rb" />
-        <option value="$PROJECT_DIR$/test/helper.rb" />
         <option value="$PROJECT_DIR$/test/square_test.rb" />
         <option value="$PROJECT_DIR$/game_over_error.rb" />
         <option value="$PROJECT_DIR$/lib/square.rb" />
         <option value="$PROJECT_DIR$/test/grid_test.rb" />
         <option value="$PROJECT_DIR$/lib/grid.rb" />
+        <option value="$PROJECT_DIR$/minesweeper-ruby.gemspec" />
+        <option value="$PROJECT_DIR$/test/helper.rb" />
+        <option value="$PROJECT_DIR$/test/grid_spec.rb" />
       </list>
     </option>
   </component>
@@ -206,24 +210,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minesweeper-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minesweeper-ruby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="money" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -244,7 +230,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.GridTest">
+  <component name="RunManager" selected="RSpec.Grid">
     <configuration default="false" name="TestMoney" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="minesweeper-ruby" />
@@ -274,36 +260,6 @@
       <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_equality" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="minesweeper-ruby" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/test_money.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_equality" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -393,6 +349,40 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Grid" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="minesweeper-ruby" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$/test" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/test/grid_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Grid" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -522,18 +512,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Ruby.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.TestMoney" />
-      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_equality" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_open_square" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
-      <item index="5" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_open_square" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.Grid" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_open_square" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.TestMoney" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_equality" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Grid" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_open_square" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.TestMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -617,7 +607,11 @@
       <created>1385372429917</created>
       <updated>1385372429917</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2중 for 문 예제를 주석에 추가함.">
+      <created>1385372545917</created>
+      <updated>1385372545917</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -706,7 +700,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="0,0 좌표에 mine을 심고, 0,0을 open하는 순간 GameOver Error가 뜨는지 확인한다." />
+    <option name="LAST_COMMIT_MESSAGE" value="2중 for 문 예제를 주석에 추가함." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -734,6 +728,7 @@
     <MESSAGE value="square가 생성하는 시점에 opened와 mined를 인자로 받도록 리팩토링함." />
     <MESSAGE value="Square의 put_mine을 change_to_mine&#10;Grid의 put_mine을 set_mine으로 리팩토링함" />
     <MESSAGE value="0,0 좌표에 mine을 심고, 0,0을 open하는 순간 GameOver Error가 뜨는지 확인한다." />
+    <MESSAGE value="2중 for 문 예제를 주석에 추가함." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,13 +736,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/minesweeper-ruby.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_money.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -784,27 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/minesweeper-ruby.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="840" selection-end="840" vertical-scroll-proportion="0.6325301">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/test_money.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/money/money.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="3" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0">
@@ -833,6 +800,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_money.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.027223231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/minesweeper-ruby.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="15" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="4" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
@@ -840,9 +835,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/grid.rb">
+    <entry file="file://$PROJECT_DIR$/test/grid_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.7622505">
+        <state line="16" column="4" selection-start="338" selection-end="338" vertical-scroll-proportion="0.4355717">
           <folding />
         </state>
       </provider>
