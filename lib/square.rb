@@ -27,7 +27,7 @@ class Square
   end
 
   def win?
-    if open_all_mine?()
+    if opened_and_not_mine?()
       return true
     end
 
@@ -50,7 +50,7 @@ class Square
     return '0'
   end
 
-  def open_all_mine?
+  def opened_and_not_mine?
     @opened && !@mined
   end
 

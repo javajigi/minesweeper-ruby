@@ -13,4 +13,9 @@ class GridTest < Test::Unit::TestCase
 
     assert_equal(Square.new, @grid.get_square(0, 0))
   end
+
+  def test_win_all_open
+    @grid.open_square(0, 0)
+    assert(@grid.win)
+  end
 end
