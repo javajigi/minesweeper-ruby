@@ -13,4 +13,12 @@ class Square
   def open
     @opened = true
   end
+
+  def mine?
+    @mined
+  end
+
+  def put_mine
+    @mined = true
+  end
 end
