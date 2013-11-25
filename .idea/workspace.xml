@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ec1735-a5c8-487f-816b-921f3c0fceff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/game_over_error.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/grid.rb" afterPath="$PROJECT_DIR$/lib/grid.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/grid_test.rb" afterPath="$PROJECT_DIR$/test/grid_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/square.rb" afterPath="$PROJECT_DIR$/lib/square.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="minesweeper-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385371038346" ignored="false" />
+    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385372427771" ignored="false" />
     <file path="/test_money.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385349946810" ignored="false" />
     <file path="/minesweeper-ruby.gemspec" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385097993300" ignored="false" />
     <file path="/my_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385096708134" ignored="false" />
@@ -18,7 +15,7 @@
     <file path="/square_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370997363" ignored="false" />
     <file path="/square.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385371858536" ignored="false" />
     <file path="/grid_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385372332642" ignored="false" />
-    <file path="/grid.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385371746974" ignored="false" />
+    <file path="/grid.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385372521015" ignored="false" />
     <file path="/temp.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370971200" ignored="false" />
     <file path="/game_over_error.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385371637566" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grid.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
+            <state line="28" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.7622505">
               <folding />
             </state>
           </provider>
@@ -76,28 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="grid_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="4" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6533575">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game_over_error.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/game_over_error.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="35" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="money.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/money/money.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="3" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0">
+            <state line="24" column="4" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,9 +118,9 @@
         <option value="$PROJECT_DIR$/test/helper.rb" />
         <option value="$PROJECT_DIR$/test/square_test.rb" />
         <option value="$PROJECT_DIR$/game_over_error.rb" />
-        <option value="$PROJECT_DIR$/lib/grid.rb" />
         <option value="$PROJECT_DIR$/lib/square.rb" />
         <option value="$PROJECT_DIR$/test/grid_test.rb" />
+        <option value="$PROJECT_DIR$/lib/grid.rb" />
       </list>
     </option>
   </component>
@@ -634,7 +613,11 @@
       <created>1385371039934</created>
       <updated>1385371039934</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="0,0 좌표에 mine을 심고, 0,0을 open하는 순간 GameOver Error가 뜨는지 확인한다.">
+      <created>1385372429917</created>
+      <updated>1385372429917</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -723,7 +706,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Square의 put_mine을 change_to_mine&#10;Grid의 put_mine을 set_mine으로 리팩토링함" />
+    <option name="LAST_COMMIT_MESSAGE" value="0,0 좌표에 mine을 심고, 0,0을 open하는 순간 GameOver Error가 뜨는지 확인한다." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -750,6 +733,7 @@
     <MESSAGE value="row, column에 대한 이름을 좀 더 명확하게 리팩토링함" />
     <MESSAGE value="square가 생성하는 시점에 opened와 mined를 인자로 받도록 리팩토링함." />
     <MESSAGE value="Square의 put_mine을 change_to_mine&#10;Grid의 put_mine을 set_mine으로 리팩토링함" />
+    <MESSAGE value="0,0 좌표에 mine을 심고, 0,0을 open하는 순간 GameOver Error가 뜨는지 확인한다." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -842,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/grid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/square.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="29" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
@@ -858,7 +835,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="498" selection-end="498" vertical-scroll-proportion="0.6533575">
+        <state line="24" column="4" selection-start="498" selection-end="498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.7622505">
           <folding />
         </state>
       </provider>

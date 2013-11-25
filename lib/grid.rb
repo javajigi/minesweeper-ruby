@@ -25,3 +25,11 @@ class Grid
     get_square(row_of_position, column_of_position).open
   end
 end
+
+=begin
+    @squares.each do |row|
+      row.each do |square|
+        square.open
+      end
+    end
+=end
