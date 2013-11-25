@@ -10,6 +10,10 @@ class Square
     @opened
   end
 
+  def closed?
+    !@opened
+  end
+
   def open
     @opened = true
   end
@@ -32,6 +36,18 @@ class Square
     end
 
     return false
+  end
+
+  def get_mark
+    if closed?
+      return ' '
+    end
+
+    if @mined
+      return '*'
+    end
+
+    return '0'
   end
 
   def open_all_mine?

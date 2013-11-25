@@ -30,4 +30,19 @@ class SquareTest < Test::Unit::TestCase
     square.put_mine
     assert(square.win?)
   end
+
+  def test_mark_close
+    square = Square.new
+    assert_equal(' ', square.get_mark)
+  end
+
+  def test_mark_open
+    square = Square.new
+    square.open
+    assert_equal('0', square.get_mark)
+    square = Square.new
+    square.put_mine
+    square.open
+    assert_equal('*', square.get_mark)
+  end
 end
