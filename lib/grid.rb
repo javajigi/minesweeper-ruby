@@ -1,23 +1,27 @@
 require 'square'
 
 class Grid
-  def initialize(row, column)
-    @squares = Array.new(row, Square.new){Array.new(column, Square.new)}
+  def initialize(row_size, column_size)
+    @squares = Array.new(row_size, Square.new){Array.new(column_size, Square.new)}
   end
 
-  def row
+  def size_of_row
     @squares.length
   end
 
-  def column
+  def size_of_column
     @squares[0].length
   end
 
-  def get_square(row, column)
-    @squares[row][column]
+  def get_square(row_of_position, column_of_position)
+    @squares[row_of_position][column_of_position]
   end
 
-  def open_square(row_point, column_point)
+  def put_mine(row_of_position, column_of_position)
+    get_square(row_of_position, column_of_position).put_mine
+  end
+
+  def open_square(row_of_position, column_of_position)
     @squares.each do |row|
       row.each do |square|
         square.open
