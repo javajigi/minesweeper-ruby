@@ -57,4 +57,8 @@ class Square
   def closed_square_all_mine?
     !@opend && @mined
   end
+
+  def == (another_square)
+    self.opened == another_square.opened && self.mined == another_square.mined
+  end
 end
