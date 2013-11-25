@@ -1,6 +1,6 @@
 require './helper'
 
-require 'test/unit'
+require 'money/money'
 
 class TestMoney < Test::Unit::TestCase
   def test_multiplication
