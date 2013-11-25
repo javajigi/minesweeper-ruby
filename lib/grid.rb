@@ -22,22 +22,6 @@ class Grid
   end
 
   def open_square(row_of_position, column_of_position)
-    @squares.each do |row|
-      row.each do |square|
-        square.open
-      end
-    end
-  end
-
-  def win()
-    @squares.each do |row|
-      row.each do |square|
-         if !square.opened_and_not_mine?
-             return false
-         end
-      end
-    end
-
-    return true;
+    get_square(row_of_position, column_of_position).open
   end
 end

@@ -1,3 +1,5 @@
+require 'game_over_error'
+
 class Square
   attr_reader :opened, :mined
 
@@ -23,6 +25,9 @@ class Square
   end
 
   def open
+    if mine?
+      raise GameOverError.new
+    end
     @opened = true
   end
 
