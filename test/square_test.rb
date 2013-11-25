@@ -6,7 +6,7 @@ class SquareTest < Test::Unit::TestCase
   @square = nil
 
   def setup
-    @square = Square.new
+    @square = Square.closed_not_mine
   end
 
   def test_open_square
@@ -41,7 +41,7 @@ class SquareTest < Test::Unit::TestCase
     @square.open
     assert_equal('0', @square.get_mark)
 
-    @square = Square.new
+    @square = Square.closed_not_mine
     @square.put_mine
     @square.open
     assert_equal('*', @square.get_mark)

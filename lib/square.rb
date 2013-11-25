@@ -1,9 +1,17 @@
 class Square
   attr_reader :opened, :mined
 
-  def initialize
-    @opened = false
-    @mined = false
+  def initialize(opened, mined)
+    @opened = opened
+    @mined = mined
+  end
+
+  def self.closed_mine
+    Square.new(false, true)
+  end
+
+  def self.closed_not_mine
+    Square.new(false, false)
   end
 
   def opened?

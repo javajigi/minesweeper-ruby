@@ -4,19 +4,21 @@
     <list default="true" id="27ec1735-a5c8-487f-816b-921f3c0fceff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/grid.rb" afterPath="$PROJECT_DIR$/lib/grid.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/grid_test.rb" afterPath="$PROJECT_DIR$/test/grid_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/square.rb" afterPath="$PROJECT_DIR$/lib/square.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/square_test.rb" afterPath="$PROJECT_DIR$/test/square_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="minesweeper-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385369923292" ignored="false" />
+    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370411969" ignored="false" />
     <file path="/test_money.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385349946810" ignored="false" />
     <file path="/minesweeper-ruby.gemspec" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385097993300" ignored="false" />
     <file path="/my_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385096708134" ignored="false" />
     <file path="/your_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385098228217" ignored="false" />
-    <file path="/square_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385359257689" ignored="false" />
-    <file path="/square.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385361569873" ignored="false" />
-    <file path="/grid_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370106539" ignored="false" />
-    <file path="/grid.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370343438" ignored="false" />
+    <file path="/square_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370754165" ignored="false" />
+    <file path="/square.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370731139" ignored="false" />
+    <file path="/grid_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370764156" ignored="false" />
+    <file path="/grid.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370809253" ignored="false" />
     <file path="/temp.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385370260376" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +39,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grid.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test_money.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_money.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="19" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="594" selection-end="594" vertical-scroll-proportion="0.67332125">
+            <state line="4" column="104" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,7 +60,16 @@
       <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/square.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="32" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="square_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/square_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="36" selection-start="809" selection-end="809" vertical-scroll-proportion="0.7005445">
               <folding />
             </state>
           </provider>
@@ -58,7 +78,16 @@
       <file leaf-file-name="grid_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="23" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+            <state line="13" column="39" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="money.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/money/money.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="3" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,8 +127,8 @@
         <option value="$PROJECT_DIR$/minesweeper-ruby.gemspec" />
         <option value="$PROJECT_DIR$/test/test_money.rb" />
         <option value="$PROJECT_DIR$/test/helper.rb" />
-        <option value="$PROJECT_DIR$/test/square_test.rb" />
         <option value="$PROJECT_DIR$/lib/square.rb" />
+        <option value="$PROJECT_DIR$/test/square_test.rb" />
         <option value="$PROJECT_DIR$/test/grid_test.rb" />
         <option value="$PROJECT_DIR$/lib/grid.rb" />
       </list>
@@ -220,7 +249,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.SquareTest">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.GridTest">
     <configuration default="false" name="TestMoney" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="minesweeper-ruby" />
@@ -505,8 +534,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
         <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_open_square" />
         <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.TestMoney" />
         <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_equality" />
@@ -577,7 +606,11 @@
       <created>1385369924849</created>
       <updated>1385369924849</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="row, column에 대한 이름을 좀 더 명확하게 리팩토링함">
+      <created>1385370413575</created>
+      <updated>1385370413575</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -666,7 +699,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="모두 지뢰가 아닌 경우 특정 위치 하나를 open하면 모든 square가 open 되어 win 상태가 된다." />
+    <option name="LAST_COMMIT_MESSAGE" value="row, column에 대한 이름을 좀 더 명확하게 리팩토링함" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -690,6 +723,7 @@
     <MESSAGE value="grid를 초기화한다." />
     <MESSAGE value="grid를 square로 초기화한다." />
     <MESSAGE value="모두 지뢰가 아닌 경우 특정 위치 하나를 open하면 모든 square가 open 되어 win 상태가 된다." />
+    <MESSAGE value="row, column에 대한 이름을 좀 더 명확하게 리팩토링함" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -768,37 +802,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/square_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="23" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/money/money.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="3" selection-start="1347" selection-end="1347" vertical-scroll-proportion="2.3446894">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/square.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="32" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+        <state line="78" column="3" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+        <state line="13" column="39" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/square.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/grid.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="35" selection-start="594" selection-end="594" vertical-scroll-proportion="0.67332125">
+        <state line="4" column="104" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/square_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="36" selection-start="809" selection-end="809" vertical-scroll-proportion="0.7005445">
           <folding />
         </state>
       </provider>

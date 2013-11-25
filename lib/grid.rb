@@ -2,7 +2,7 @@ require 'square'
 
 class Grid
   def initialize(row_size, column_size)
-    @squares = Array.new(row_size, Square.new){Array.new(column_size, Square.new)}
+    @squares = Array.new(row_size, Square.closed_not_mine){Array.new(column_size, Square.closed_not_mine)}
   end
 
   def size_of_row
