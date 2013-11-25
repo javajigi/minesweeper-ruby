@@ -23,14 +23,22 @@ class Square
   end
 
   def win?
-    if @opened && !@mined
+    if open_all_mine?()
       return true
     end
 
-    if !@opend && @mined
+    if closed_square_all_mine?()
       return true
     end
 
     return false
+  end
+
+  def open_all_mine?
+    @opened && !@mined
+  end
+
+  def closed_square_all_mine?
+    !@opend && @mined
   end
 end

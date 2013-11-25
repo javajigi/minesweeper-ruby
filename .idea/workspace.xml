@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27ec1735-a5c8-487f-816b-921f3c0fceff" name="Default" comment="square의 mine 메소드 구현 완료함.">
+    <list default="true" id="27ec1735-a5c8-487f-816b-921f3c0fceff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/square.rb" afterPath="$PROJECT_DIR$/lib/square.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/square_test.rb" afterPath="$PROJECT_DIR$/test/square_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="minesweeper-ruby.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385351165387" ignored="false" />
+    <file path="/Dummy.txt" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385351982705" ignored="false" />
     <file path="/test_money.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385349946810" ignored="false" />
     <file path="/minesweeper-ruby.gemspec" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385097993300" ignored="false" />
     <file path="/my_test.rb" changelist="27ec1735-a5c8-487f-816b-921f3c0fceff" time="1385096708134" ignored="false" />
@@ -55,7 +54,7 @@
       <file leaf-file-name="square.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/square.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="4" selection-start="362" selection-end="362" vertical-scroll-proportion="0.7294589">
+            <state line="25" column="7" selection-start="265" selection-end="265" vertical-scroll-proportion="0.3987976">
               <folding />
             </state>
           </provider>
@@ -553,7 +552,11 @@
       <created>1385351121247</created>
       <updated>1385351121247</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="open + no mine = win&#10;close + mine = win&#10;그 이외에는 lose">
+      <created>1385351986992</created>
+      <updated>1385351986992</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -642,7 +645,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="square의 mine 메소드 구현 완료함." />
+    <option name="LAST_COMMIT_MESSAGE" value="open + no mine = win&#10;close + mine = win&#10;그 이외에는 lose" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -659,6 +662,7 @@
     <MESSAGE value="minitest::unit, minitest::spec이 동작하도록 구현함." />
     <MESSAGE value="square의 open 메소드 구현 완료함." />
     <MESSAGE value="square의 mine 메소드 구현 완료함." />
+    <MESSAGE value="open + no mine = win&#10;close + mine = win&#10;그 이외에는 lose" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -763,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/square.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="4" selection-start="362" selection-end="362" vertical-scroll-proportion="0.7294589">
+        <state line="25" column="7" selection-start="265" selection-end="265" vertical-scroll-proportion="0.3987976">
           <folding />
         </state>
       </provider>
