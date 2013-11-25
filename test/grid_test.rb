@@ -19,8 +19,8 @@ class GridTest < Test::Unit::TestCase
     assert(@grid.win)
   end
 
-  def test_put_mine
-    @grid.put_mine(0, 0)
+  def test_set_mine
+    @grid.set_mine(0, 0)
     assert_equal(Square.closed_mine, @grid.get_square(0, 0))
   end
 end

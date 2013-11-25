@@ -30,7 +30,7 @@ class Square
     @mined
   end
 
-  def put_mine
+  def change_to_mine
     @mined = true
   end
 

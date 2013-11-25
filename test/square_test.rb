@@ -15,9 +15,9 @@ class SquareTest < Test::Unit::TestCase
     assert_equal(true, @square.opened?)
   end
 
-  def test_put_mine
+  def test_change_to_mine
     assert_equal(false, @square.mine?)
-    @square.put_mine
+    @square.set_mine
     assert_equal(true, @square.mine?)
   end
 
@@ -29,7 +29,7 @@ class SquareTest < Test::Unit::TestCase
 
   def test_win_when_close_mine
     assert(!@square.win?)
-    @square.put_mine
+    @square.set_mine
     assert(@square.win?)
   end
 
@@ -42,7 +42,7 @@ class SquareTest < Test::Unit::TestCase
     assert_equal('0', @square.get_mark)
 
     @square = Square.closed_not_mine
-    @square.put_mine
+    @square.change_to_mine
     @square.open
     assert_equal('*', @square.get_mark)
   end

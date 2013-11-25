@@ -17,8 +17,8 @@ class Grid
     @squares[row_of_position][column_of_position]
   end
 
-  def put_mine(row_of_position, column_of_position)
-    get_square(row_of_position, column_of_position).put_mine
+  def set_mine(row_of_position, column_of_position)
+    get_square(row_of_position, column_of_position).change_to_mine
   end
 
   def open_square(row_of_position, column_of_position)
