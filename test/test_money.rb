@@ -3,13 +3,13 @@ require './helper'
 require 'money/money'
 
 class TestMoney < Test::Unit::TestCase
-  def test_multiplication
+  test 'test_multiplication' do
     five = Money.dollar(5)
     assert_equal(Money.dollar(10), five * 2)
     assert_equal(Money.dollar(15), five * 3)
   end
 
-  def test_equality
+  test '값이 같으면 Money 인스턴스는 같다.' do
     assert(Money.dollar(5) == Money.dollar(5))
     refute(Money.dollar(5) == Money.dollar(6))
     refute(Money.dollar(5) == Money.franc(5))

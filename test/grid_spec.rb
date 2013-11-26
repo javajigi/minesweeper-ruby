@@ -26,7 +26,7 @@ describe '2 by 2 Grid' do
   it 'mine을 매설하면 주위 Square의 mine의 이웃 마인 갯수가 1 증가한다' do
     @grid.set_mine(0, 0)
     expect(@grid.get_square(0, 1).size_of_neighbor_mines).to eq(1)
-#    @grid.set_mine(1, 0)
-#    expect(@grid.get_square(0, 1).size_of_neighbor_mines).to eq(2)
+    @grid.set_mine(1, 0)
+    expect(@grid.get_square(0, 1).size_of_neighbor_mines).to eq(2)
   end
 end
