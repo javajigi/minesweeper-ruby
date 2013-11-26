@@ -10,15 +10,15 @@ class SquareTest < Test::Unit::TestCase
   end
 
   def test_open_square
-    assert_equal(false, @square.opened?)
+    assert_equal(false, @square.opened)
     @square.open()
-    assert_equal(true, @square.opened?)
+    assert_equal(true, @square.opened)
   end
 
   def test_change_to_mine
-    assert_equal(false, @square.mine?)
-    @square.set_mine
-    assert_equal(true, @square.mine?)
+    assert_equal(false, @square.mined)
+    @square.change_to_mine
+    assert_equal(true, @square.mined)
   end
 
   def test_win_when_open_not_mine
@@ -29,7 +29,7 @@ class SquareTest < Test::Unit::TestCase
 
   def test_win_when_close_mine
     assert(!@square.win?)
-    @square.set_mine
+    @square.change_to_mine
     assert(@square.win?)
   end
 
@@ -40,10 +40,12 @@ class SquareTest < Test::Unit::TestCase
   def test_mark_open
     @square.open
     assert_equal('0', @square.get_mark)
+  end
 
-    @square = Square.closed_not_mine
-    @square.change_to_mine
-    @square.open
-    assert_equal('*', @square.get_mark)
+  def test_put_neighbor_mine
+    @square.put_neighbor_mine
+    assert_equal(1, @square.size_of_neighbor_mines)
+    @square.put_neighbor_mine
+    assert_equal(2, @square.size_of_neighbor_mines)
   end
 end

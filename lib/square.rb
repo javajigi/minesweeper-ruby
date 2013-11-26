@@ -1,11 +1,12 @@
 require 'game_over_error'
 
 class Square
-  attr_reader :opened, :mined
+  attr_reader :opened, :mined, :size_of_neighbor_mines
 
   def initialize(opened, mined)
     @opened = opened
     @mined = mined
+    @size_of_neighbor_mines = 0
   end
 
   def self.closed_mine
@@ -16,23 +17,15 @@ class Square
     Square.new(false, false)
   end
 
-  def opened?
-    @opened
-  end
-
-  def closed?
+  def closed
     !@opened
   end
 
   def open
-    if mine?
+    if mined
       raise GameOverError.new
     end
     @opened = true
-  end
-
-  def mine?
-    @mined
   end
 
   def change_to_mine
@@ -52,7 +45,7 @@ class Square
   end
 
   def get_mark
-    if closed?
+    if closed
       return ' '
     end
 
@@ -63,12 +56,16 @@ class Square
     return '0'
   end
 
+  def put_neighbor_mine
+    @size_of_neighbor_mines += 1
+  end
+
   def opened_and_not_mine?
     @opened && !@mined
   end
 
   def closed_square_all_mine?
-    !@opend && @mined
+    closed && @mined
   end
 
   def == (another_square)
