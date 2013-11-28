@@ -1,5 +1,7 @@
-require 'test/unit'
-require '../lib/minesweeper/square'
+require './helper'
+
+require 'minesweeper/square'
+
 class SquareTest < Test::Unit::TestCase
 
   setup do
