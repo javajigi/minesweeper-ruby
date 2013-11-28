@@ -1,4 +1,6 @@
 class Square
+  attr_reader :mined, :opened
+
   def initialize
     @mined = false
     @opened = false
@@ -6,10 +8,6 @@ class Square
 
   def mine!
     @mined = true
-  end
-
-  def win?
-    true
   end
 
   def open
