@@ -38,6 +38,12 @@ class Board
     result
   end
 
+  def open_near(x, y)
+    @rows[x-1].open_near(y) if valid?(x-1)
+    @rows[x].open_near(y) if valid?(x)
+    @rows[x+1].open_near(y) if valid?(x+1)
+  end
+
   private
   def valid?(x)
     (0 <= x) && (x < Board.row_num)

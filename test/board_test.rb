@@ -46,4 +46,11 @@ class BoardTest < Test::Unit::TestCase
     assert_equal 3, @board.near_mine_num(2, 1)
   end
 
+  test '주변 셀 열기' do
+    @board.open_near(2, 1)
+    assert_false @board.open?(0, 0)
+    assert_true @board.open?(1, 2)
+    assert_true @board.open?(2, 1)
+    assert_true @board.open?(2, 2)
+  end
 end
