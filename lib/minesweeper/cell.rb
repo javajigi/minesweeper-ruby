@@ -23,4 +23,8 @@ class Cell
   def open?
     @open
   end
+
+  def win?
+    @open || @mine
+  end
 end

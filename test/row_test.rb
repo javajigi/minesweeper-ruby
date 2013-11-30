@@ -24,9 +24,9 @@ class RowTest < Test::Unit::TestCase
     assert_false @row.mine?(2)
   end
 
-  test '셀 전부 열면 이긴다' do
+  test '전부 열리거나 마인이면 이긴다' do
     @row.open(0)
-    @row.open(1)
+    @row.mine!(1)
     @row.open(2)
     assert_true @row.win?
   end

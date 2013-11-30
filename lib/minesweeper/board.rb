@@ -1,61 +1,45 @@
 require_relative 'row'
 class Board
+  @row_num = 3
+  class << self
+    attr_reader :row_num
+  end
+
   attr_accessor :rows
-
-  def self.row_num
-    3
-  end
-
   def initialize
-    @rows = []
-    Board.row_num.times { @rows << Row.new }
+    @rows = Array.new(Board.row_num) {Row.new}
   end
 
-  def clear?
-    @rows.inject(true) { |result, row| result && row.clear? }
+  def open(x, y)
+    rows[x].open(y)
   end
 
-  def open(row, col)
-    if valid_coordinate?(row, col)
-      unless visited?(row, col)
-        if @rows[row].mine?(col)
-          'lose'
-        else
-          num = get_num(row, col)
-          open_neighbor(row, col) if num == 0
-          num
-        end
-      end
-    end
+  def open?(x, y)
+    rows[x].open?(y)
   end
 
-  def to_s
-    @rows.inject("") { |result, row| result += row.to_s+"\n" }
+  def mine!(x, y)
+    rows[x].mine!(y)
+  end
+
+  def mine?(x, y)
+    rows[x].mine?(y)
+  end
+
+  def win?
+    @rows.inject(true) { |result, row| result && row.win? }
+  end
+
+  def near_mine_num(x, y)
+    result = 0
+    result += @rows[x-1].near_mine_num(y) if valid?(x-1)
+    result += @rows[x].near_mine_num(y) if valid?(x)
+    result += @rows[x+1].near_mine_num(y) if valid?(x+1)
+    result
   end
 
   private
-
-  def visited?(row, col)
-    @rows[row].opened?(col)
-  end
-
-  def valid_coordinate?(row, col)
-    row>=0 && row < Board.row_num && col>=0 && col < Row.cell_num
-  end
-
-  def open_neighbor(row, col)
-    [row-1, row, row+1].each do |row|
-      [col-1, col, col+1].each do |col|
-        open(row, col)
-      end
-    end
-  end
-
-  def get_num(row, col)
-    result = 0
-    result += rows[row-1].mine_num(col) if row > 0
-    result +=rows[row].mine_num(col)
-    result += rows[row+1].mine_num(col) if row < Board.row_num-1
-    result
+  def valid?(x)
+    (0 <= x) && (x < Board.row_num)
   end
 end

@@ -19,4 +19,14 @@ class CellTest < Test::Unit::TestCase
     @cell.open
     assert_true @cell.open?
   end
+
+  test '마인이면 이긴다' do
+    @cell.mine!
+    assert_true @cell.win?
+  end
+
+  test '열려있으면 이긴다' do
+    @cell.open
+    assert_true @cell.win?
+  end
 end
