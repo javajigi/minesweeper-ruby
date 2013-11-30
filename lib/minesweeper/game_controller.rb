@@ -20,6 +20,10 @@ class GameController
     str.split(', ')
   end
 
+  def open(x, y)
+    @board.open(x.to_i, y.to_i)
+  end
+
   def print
     board.to_s
   end

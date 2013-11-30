@@ -27,4 +27,9 @@ class GameControllerTest < Test::Unit::TestCase
     assert_equal '1', x
     assert_equal '2', y
   end
+
+  test 'x, y를 입력하여 해당 셀을 연다' do
+    @gc.open('1', '2')
+    assert_true @gc.board.rows[1].cells[2].open?
+  end
 end

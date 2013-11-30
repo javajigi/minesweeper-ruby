@@ -6,24 +6,25 @@ class Board
   end
 
   attr_accessor :rows
+
   def initialize
-    @rows = Array.new(Board.row_num) {Row.new}
+    @rows = Array.new(Board.row_num) { Row.new }
   end
 
   def open(x, y)
-    rows[x].open(y)
+    rows[x].open(y) if valid?(x)
   end
 
   def open?(x, y)
-    rows[x].open?(y)
+    rows[x].open?(y) if valid?(x)
   end
 
   def mine!(x, y)
-    rows[x].mine!(y)
+    rows[x].mine!(y) if valid?(x)
   end
 
   def mine?(x, y)
-    rows[x].mine?(y)
+    rows[x].mine?(y) if valid?(x)
   end
 
   def win?
@@ -50,8 +51,9 @@ class Board
   end
 
   def to_s
-    @rows.inject('') {|result, row| result += row.to_s + "\n"}
+    @rows.inject('') { |result, row| result += row.to_s + "\n" }
   end
+
   private
   def valid?(x)
     (0 <= x) && (x < Board.row_num)

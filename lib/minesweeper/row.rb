@@ -12,19 +12,19 @@ class Row
   end
 
   def open(i)
-    with_validation(i) { @cells[i].open }
+    @cells[i].open if valid?(i)
   end
 
   def open?(i)
-    with_validation(i) { @cells[i].open? }
+    @cells[i].open? if valid?(i)
   end
 
   def mine!(i)
-    with_validation(i) { @cells[i].mine! }
+    @cells[i].mine! if valid?(i)
   end
 
   def mine?(i)
-    with_validation(i) { @cells[i].mine? }
+    @cells[i].mine? if valid?(i)
   end
 
   def win?
@@ -54,10 +54,6 @@ class Row
   end
 
   private
-  def with_validation(i, &block)
-    block.call if valid?(i)
-  end
-
   def valid?(i)
     (0 <= i) && (i < Row.cell_num)
   end
