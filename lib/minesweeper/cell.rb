@@ -1,30 +1,29 @@
 class Cell
   def initialize
-    @open = false
-    @mine = false
-  end
-
-  def mine!
-    @mine = true
-  end
-
-  def mine?
-    @mine
+    @mark = ' '
   end
 
   def empty?
-    not @mine
+    @mark == ' '
+  end
+
+  def mine!
+    @mark = '*'
+  end
+
+  def mine?
+    @mark == '*'
   end
 
   def open
-    @open = true
+    @mark = 0
   end
 
   def open?
-    @open
+    @mark.instance_of?(Fixnum)
   end
 
   def win?
-    @open || @mine
+    mine? || open?
   end
 end
