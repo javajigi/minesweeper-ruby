@@ -2,53 +2,40 @@ require 'test/unit'
 require_relative '../lib/minesweeper/row'
 
 class RowTest < Test::Unit::TestCase
-  row = nil
   setup do
-    row = Row.new
+    @row = Row.new
   end
 
-  test '주변 지뢰의 수를 준다' do
-    row.fake_init2
-    assert_equal(1, row.mine_num(0))
+  test '셀 3개로 초기화' do
+    assert_equal 3, @row.cells.length
   end
 
-  test '전부 지뢰이면 이긴다' do
-    row.fake_init1
-    assert_equal(true, row.clear?)
-    row.fake_init2
-    assert_equal(false, row.clear?)
+  test '0번째 셀 열기' do
+    @row.open(0)
+    assert_true @row.open?(0)
+    assert_false @row.open?(1)
+    assert_false @row.open?(2)
   end
 
-  test '"***"로 초기화한다' do
-    row.fake_init1
-    assert_equal('***', row.to_s)
+  test '1번째 셀 지뢰 심기' do
+    @row.mine!(1)
+    assert_false @row.mine?(0)
+    assert_true @row.mine?(1)
+    assert_false @row.mine?(2)
   end
-  test '" **"로 초기화한다' do
-    row.fake_init2
-    assert_equal(' **', row.to_s)
+
+  test '셀 전부 열면 이긴다' do
+    @row.open(0)
+    @row.open(1)
+    @row.open(2)
+    assert_true @row.win?
   end
-  test '"* *"로 초기화한다' do
-    row.fake_init3
-    assert_equal('* *', row.to_s)
-  end
-  test '"** "로 초기화한다' do
-    row.fake_init4
-    assert_equal('** ', row.to_s)
-  end
-  test '"*  "로 초기화한다' do
-    row.fake_init5
-    assert_equal('*  ', row.to_s)
-  end
-  test '" * "로 초기화한다' do
-    row.fake_init6
-    assert_equal(' * ', row.to_s)
-  end
-  test '"  *"로 초기화한다' do
-    row.fake_init7
-    assert_equal('  *', row.to_s)
-  end
-  test '"   "로 초기화한다' do
-    row.fake_init8
-    assert_equal('   ', row.to_s)
+
+  test '주변 마인 수 세기' do
+    @row.mine!(0)
+    @row.mine!(1)
+    assert_equal 2, @row.near_mine_num(0)
+    assert_equal 2, @row.near_mine_num(1)
+    assert_equal 1, @row.near_mine_num(2)
   end
 end

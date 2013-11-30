@@ -40,7 +40,7 @@ class Board
   end
 
   def valid_coordinate?(row, col)
-    row>=0 && row < Board.row_num && col>=0 && col < Row.col_num
+    row>=0 && row < Board.row_num && col>=0 && col < Row.cell_num
   end
 
   def open_neighbor(row, col)

@@ -1,26 +1,26 @@
 class Cell
   def initialize
-    @opened = false
-    @mark = ' '
+    @open = false
+    @mine = false
   end
 
   def mine!
-    @mark = '*'
+    @mine = true
   end
 
   def mine?
-    @mark == '*'
+    @mine
+  end
+
+  def empty?
+    not @mine
   end
 
   def open
-    @opened = true
+    @open = true
   end
 
   def open?
-    @opened
-  end
-
-  def to_s
-    @mark
+    @open
   end
 end

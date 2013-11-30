@@ -1,91 +1,54 @@
 require_relative 'cell'
-class Row
-  attr_accessor :cols
 
-  def self.col_num
-    3
+class Row
+  @cell_num = 3
+  class << self
+    attr_reader :cell_num
   end
+
+  attr_accessor :cells
 
   def initialize
-    @cols = []
-    Row.col_num.times { @cols << Cell.new }
+    @cells = Array.new(Row.cell_num) { Cell.new }
   end
 
-  def mine_num(col)
+  def open(i)
+    with_validation(i) { @cells[i].open }
+  end
+
+  def open?(i)
+    with_validation(i) { @cells[i].open? }
+  end
+
+  def mine!(i)
+    with_validation(i) { @cells[i].mine! }
+  end
+
+  def mine?(i)
+    with_validation(i) { @cells[i].mine? }
+  end
+
+  def with_validation(i, &block)
+    block.call if valid?(i)
+  end
+
+  def valid?(i)
+    (0 <= i) && (i < Row.cell_num)
+  end
+
+  def win?
+    @cells.inject(true) { |result, cell| result && (cell.mine? or cell.open?) }
+  end
+
+  def near_mine_num(i)
     result = 0
-    result += 1 if col>0 && @cols[col-1].mine?
-    result += 1 if @cols[col].mine?
-    result += 1 if col<Row.col_num-1 && @cols[col+1].mine?
+    result += 1 if mine?(i-1)
+    result += 1 if mine?(i)
+    result += 1 if mine?(i+1)
     result
   end
 
-  def clear?
-    @cols.inject(true) { |result, col| result && (col.mine? or col.opened?) }
-  end
-
-  def mine?(col)
-    open(col) == '*'
-  end
-
-  def open?(col)
-    @cols[col].opened?
-  end
-
   def to_s
-    @cols.inject("") {|result, col| result += col.to_s}
-  end
-
-
-  def fake_init1
-    @cols[0].fake_init '*'
-    @cols[1].fake_init '*'
-    @cols[2].fake_init '*'
-  end
-
-  def fake_init2
-    @cols[0].fake_init ' '
-    @cols[1].fake_init '*'
-    @cols[2].fake_init '*'
-  end
-
-  def fake_init3
-    @cols[0].fake_init '*'
-    @cols[1].fake_init ' '
-    @cols[2].fake_init '*'
-  end
-
-  def fake_init4
-    @cols[0].fake_init '*'
-    @cols[1].fake_init '*'
-    @cols[2].fake_init ' '
-  end
-
-  def fake_init5
-    @cols[0].fake_init '*'
-    @cols[1].fake_init ' '
-    @cols[2].fake_init ' '
-  end
-
-  def fake_init6
-    @cols[0].fake_init ' '
-    @cols[1].fake_init '*'
-    @cols[2].fake_init ' '
-  end
-
-  def fake_init7
-    @cols[0].fake_init ' '
-    @cols[1].fake_init ' '
-    @cols[2].fake_init '*'
-  end
-
-  def fake_init8
-    @cols[0].fake_init ' '
-    @cols[1].fake_init ' '
-    @cols[2].fake_init ' '
-  end
-
-  private
-  def open(col)
-    @cols[col].open
+    @cells.inject('') { |result, cell| result += cell.to_s }
   end
 end

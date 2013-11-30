@@ -7,7 +7,7 @@ class CellTest < Test::Unit::TestCase
   end
 
   test '빈 셀로 초기화한다' do
-    assert_equal(' ', @cell.to_s)
+    assert_true @cell.empty?
   end
 
   test '마인을 설치한다' do
