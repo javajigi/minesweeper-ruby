@@ -38,4 +38,11 @@ class RowTest < Test::Unit::TestCase
     assert_equal 2, @row.near_mine_num(1)
     assert_equal 1, @row.near_mine_num(2)
   end
+
+  test '주변 셀 열기' do
+    @row.open_near(2)
+    assert_false @row.open?(0)
+    assert_true @row.open?(1)
+    assert_true @row.open?(2)
+  end
 end

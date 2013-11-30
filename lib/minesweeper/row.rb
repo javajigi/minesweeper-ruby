@@ -39,6 +39,12 @@ class Row
     result
   end
 
+  def open_near(i)
+    open(i-1)
+    open(i)
+    open(i+1)
+  end
+
   private
   def with_validation(i, &block)
     block.call if valid?(i)
