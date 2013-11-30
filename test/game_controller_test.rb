@@ -19,6 +19,12 @@ class GameControllerTest < Test::Unit::TestCase
     @gc.board.mine!(2, 2)
     @gc.board.open(1, 1)
     @gc.board.set_mark(1, 1)
-    assert_equal("   \n 1 \n  *\n", @gc.print)
+    assert_equal("---\n-1-\n--*\n", @gc.print)
+  end
+
+  test '입력값을 파싱하여 x, y값을 구한다' do
+    x, y = @gc.parse('1, 2')
+    assert_equal '1', x
+    assert_equal '2', y
   end
 end

@@ -3,6 +3,7 @@ require_relative 'row'
 
 class GameController
   attr_reader :board
+
   def initialize
     @board = Board.new
   end
@@ -15,7 +16,13 @@ class GameController
     Row.cell_num = i
   end
 
+  def parse(str)
+    str.split(', ')
+  end
+
   def print
     board.to_s
   end
 end
+
+

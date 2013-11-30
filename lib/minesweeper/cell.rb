@@ -1,11 +1,11 @@
 class Cell
   attr_accessor :mark
   def initialize
-    @mark = ' '
+    @mark = '-'
   end
 
   def empty?
-    @mark == ' '
+    @mark == '-'
   end
 
   def mine!
