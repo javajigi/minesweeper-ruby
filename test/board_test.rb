@@ -13,8 +13,8 @@ class BoardTest < Test::Unit::TestCase
     board.rows[1].fake_init8
     board.rows[2].fake_init8
     board.open(2, 0)
-    assert_equal(true, board.rows[1].cols[0].open?)
-    assert_equal(true, board.rows[2].cols[1].open?)
+    assert_equal(true, board.rows[1].cols[0].opened?)
+    assert_equal(true, board.rows[2].cols[1].opened?)
 
     board = Board.new
     board.rows[0].fake_init8

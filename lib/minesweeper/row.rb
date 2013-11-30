@@ -20,7 +20,7 @@ class Row
   end
 
   def clear?
-    @cols.inject(true) { |result, col| result && (col.mine? or col.open?) }
+    @cols.inject(true) { |result, col| result && (col.mine? or col.opened?) }
   end
 
   def mine?(col)
@@ -28,7 +28,7 @@ class Row
   end
 
   def open?(col)
-    @cols[col].open?
+    @cols[col].opened?
   end
 
   def to_s

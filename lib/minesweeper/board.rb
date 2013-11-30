@@ -36,7 +36,7 @@ class Board
   private
 
   def visited?(row, col)
-    @rows[row].open?(col)
+    @rows[row].opened?(col)
   end
 
   def valid_coordinate?(row, col)
