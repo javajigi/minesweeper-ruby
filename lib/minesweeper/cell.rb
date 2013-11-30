@@ -27,4 +27,8 @@ class Cell
   def win?
     mine? || open?
   end
+
+  def to_s
+    @mark.to_s
+  end
 end

@@ -13,7 +13,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/minesweeper-ruby@CellTest.coverage" NAME="CellTest Coverage Results" MODIFIED="1385787479108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
-    <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__GameControllerTest___minesweeper_ruby.coverage" NAME="Run test 'GameControllerTest': minesweeper-ruby Coverage Results" MODIFIED="1385788442282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__GameControllerTest___minesweeper_ruby.coverage" NAME="Run test 'GameControllerTest': minesweeper-ruby Coverage Results" MODIFIED="1385788894284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@test_____minesweeper_ruby.coverage" NAME="test_보드의_크기를_바꾼다: minesweeper-ruby Coverage Results" MODIFIED="1385788230714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@test_1_____minesweeper_ruby.coverage" NAME="test_1번째_셀_지뢰_심기: minesweeper-ruby Coverage Results" MODIFIED="1385784084390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@RowTest.coverage" NAME="RowTest Coverage Results" MODIFIED="1385787572657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
@@ -31,6 +31,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="game_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/game_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="game_controller_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/game_controller_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="8" selection-start="351" selection-end="359" vertical-scroll-proportion="0.48479086" vertical-offset="0" max-vertical-offset="526">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="board.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/board.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="10" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="960">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="board_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/board_test.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -40,28 +67,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/game_controller.rb">
+      <file leaf-file-name="row.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game_controller_test.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/game_controller_test.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="8" selection-start="171" selection-end="182" vertical-scroll-proportion="0.256654" vertical-offset="0" max-vertical-offset="526">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="board.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/board.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+            <state line="51" column="10" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -70,16 +79,16 @@
       <file leaf-file-name="row_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/row_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="810">
+            <state line="47" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="284" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
+      <file leaf-file-name="cell.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+            <state line="21" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -89,15 +98,6 @@
         <entry file="file://$PROJECT_DIR$/test/cell_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="555">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cell.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -118,12 +118,12 @@
         <option value="$PROJECT_DIR$/minesweeper-ruby.gemspec" />
         <option value="$PROJECT_DIR$/lib/minesweeper/index_out_of_bound_error.rb" />
         <option value="$PROJECT_DIR$/test/cell_test.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/cell.rb" />
         <option value="$PROJECT_DIR$/test/row_test.rb" />
         <option value="$PROJECT_DIR$/test/board_test.rb" />
-        <option value="$PROJECT_DIR$/test/game_controller_test.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/board.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/row.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/board.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/cell.rb" />
+        <option value="$PROJECT_DIR$/test/game_controller_test.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/game_controller.rb" />
       </list>
     </option>
@@ -575,23 +575,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/cell_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/row_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="0" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" vertical-offset="302" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="10" selection-start="815" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
@@ -605,28 +598,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/board.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
+        <state line="51" column="10" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0" vertical-offset="389" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
+    <entry file="file://$PROJECT_DIR$/test/cell_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+        <state line="19" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/game_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="5" column="0" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/game_controller_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="171" selection-end="182" vertical-scroll-proportion="0.256654" vertical-offset="0" max-vertical-offset="526">
+        <state line="17" column="8" selection-start="351" selection-end="359" vertical-scroll-proportion="0.48479086" vertical-offset="0" max-vertical-offset="526">
           <folding />
         </state>
       </provider>

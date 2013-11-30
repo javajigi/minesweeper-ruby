@@ -49,6 +49,9 @@ class Board
     rows[x].set_mark(y, mark)
   end
 
+  def to_s
+    @rows.inject('') {|result, row| result += row.to_s + "\n"}
+  end
   private
   def valid?(x)
     (0 <= x) && (x < Board.row_num)

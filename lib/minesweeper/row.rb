@@ -49,6 +49,10 @@ class Row
     @cells[i].mark = mark
   end
 
+  def to_s
+    @cells.inject('') {|result, cell| result += cell.to_s}
+  end
+
   private
   def with_validation(i, &block)
     block.call if valid?(i)
