@@ -3,7 +3,7 @@ require_relative 'cell'
 class Row
   @cell_num = 3
   class << self
-    attr_reader :cell_num
+    attr_accessor :cell_num
   end
 
   attr_accessor :cells

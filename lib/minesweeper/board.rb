@@ -2,7 +2,7 @@ require_relative 'row'
 class Board
   @row_num = 3
   class << self
-    attr_reader :row_num
+    attr_accessor :row_num
   end
 
   attr_accessor :rows
