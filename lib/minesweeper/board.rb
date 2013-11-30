@@ -44,6 +44,11 @@ class Board
     @rows[x+1].open_near(y) if valid?(x+1)
   end
 
+  def set_mark(x, y)
+    mark = near_mine_num(x, y)
+    rows[x].set_mark(y, mark)
+  end
+
   private
   def valid?(x)
     (0 <= x) && (x < Board.row_num)

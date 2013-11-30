@@ -45,6 +45,10 @@ class Row
     open(i+1)
   end
 
+  def set_mark(i, mark)
+    @cells[i].mark = mark
+  end
+
   private
   def with_validation(i, &block)
     block.call if valid?(i)

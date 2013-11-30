@@ -45,4 +45,5 @@ class RowTest < Test::Unit::TestCase
     assert_true @row.open?(1)
     assert_true @row.open?(2)
   end
+
 end

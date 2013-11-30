@@ -53,4 +53,16 @@ class BoardTest < Test::Unit::TestCase
     assert_true @board.open?(2, 1)
     assert_true @board.open?(2, 2)
   end
+
+  test '셀에 주변 마인 수 입력하기' do
+    @board.mine!(0, 0)
+    @board.mine!(0, 2)
+    @board.mine!(1, 1)
+
+    @board.set_mark(1, 0)
+    assert_equal 2, @board.rows[1].cells[0].mark
+
+    @board.set_mark(0, 1)
+    assert_equal 3, @board.rows[0].cells[1].mark
+  end
 end
