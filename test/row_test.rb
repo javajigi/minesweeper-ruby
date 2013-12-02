@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../lib/minesweeper/row'
+require_relative '../lib/minesweeper/ruby/row'
 
 class RowTest < Test::Unit::TestCase
   setup do

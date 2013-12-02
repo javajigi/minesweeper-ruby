@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../lib/minesweeper/board'
+require_relative '../lib/minesweeper/ruby/board'
 
 class BoardTest < Test::Unit::TestCase
   setup do
@@ -37,15 +37,6 @@ class BoardTest < Test::Unit::TestCase
     assert_true @board.win?
   end
 
-  test '주변 마인수 세기' do
-    @board.mine!(1, 1)
-    @board.mine!(2, 0)
-    @board.mine!(2, 2)
-    assert_equal 1, @board.near_mine_num(0, 0)
-    assert_equal 2, @board.near_mine_num(1, 0)
-    assert_equal 3, @board.near_mine_num(2, 1)
-  end
-
   test '주변 셀 열기' do
     @board.open_near(2, 1)
     assert_false @board.open?(0, 0)
@@ -54,15 +45,19 @@ class BoardTest < Test::Unit::TestCase
     assert_true @board.open?(2, 2)
   end
 
+  test '주변 셀 마크 표시하기' do
+
+  end
+
   test '셀에 주변 마인 수 입력하기' do
     @board.mine!(0, 0)
     @board.mine!(0, 2)
     @board.mine!(1, 1)
 
     @board.set_mark(1, 0)
-    assert_equal 2, @board.rows[1].cells[0].mark
+    assert_equal 2, @board.get_mark(1, 0)
 
     @board.set_mark(0, 1)
-    assert_equal 3, @board.rows[0].cells[1].mark
+    assert_equal 3, @board.get_mark(0, 1)
   end
 end
