@@ -1,5 +1,5 @@
-require_relative 'board'
-require_relative 'row'
+require 'board'
+require 'row'
 
 class GameController
   attr_reader :board

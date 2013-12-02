@@ -1,6 +1,6 @@
 require 'test/unit'
-require '../lib/minesweeper/ruby/game_controller'
-require '../lib/minesweeper/ruby/board'
+require 'game_controller'
+require 'board'
 
 class GameControllerTest < Test::Unit::TestCase
 

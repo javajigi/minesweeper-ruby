@@ -1,4 +1,4 @@
-require_relative 'cell'
+require 'cell'
 
 class Row
   @cell_num = 3

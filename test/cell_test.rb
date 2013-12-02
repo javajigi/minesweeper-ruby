@@ -1,5 +1,5 @@
 require 'test/unit'
-require '../lib/minesweeper/ruby/cell'
+require 'cell'
 
 class CellTest < Test::Unit::TestCase
   setup do

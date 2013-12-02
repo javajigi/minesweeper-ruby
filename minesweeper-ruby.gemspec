@@ -1,7 +1,7 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'minesweeper/ruby/version'
+dir = File.expand_path('../lib/minesweeper/ruby', __FILE__)
+$LOAD_PATH.unshift(dir) unless $LOAD_PATH.include?(dir)
+require 'version'
 
 Gem::Specification.new do |spec|
   spec.name          = "minesweeper-ruby"

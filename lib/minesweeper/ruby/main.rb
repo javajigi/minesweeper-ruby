@@ -1,4 +1,4 @@
-require_relative 'game_controller'
+require 'game_controller'
 @gc = GameController.new
 @gc.run
 

@@ -1,4 +1,4 @@
-require_relative 'row'
+require'row'
 class Board
   @row_num = 3
   class << self

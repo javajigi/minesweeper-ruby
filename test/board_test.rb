@@ -1,5 +1,5 @@
 require 'test/unit'
-require_relative '../lib/minesweeper/ruby/board'
+require 'board'
 
 class BoardTest < Test::Unit::TestCase
   setup do
