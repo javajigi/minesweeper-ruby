@@ -44,14 +44,14 @@ class Board
     num += 1 if ((self.is_valid? x + SOUTH[0], y + SOUTH[1]) && @squares[x + SOUTH[0]][y + SOUTH[1]].mined?)
     num += 1 if ((self.is_valid? x + SOUTH_WEST[0], y + SOUTH_WEST[1]) && @squares[x + SOUTH_WEST[0]][y + SOUTH_WEST[1]].mined?)
     num += 1 if ((self.is_valid? x + WEST[0], y + WEST[1]) && @squares[x + WEST[0]][y + WEST[1]].mined?)
-    num += 1 if ((self.is_valid? x + NORTH_EAST[0], y + NORTH_EAST[1]) && @squares[x + NORTH_EAST[0]][y + NORTH_EAST[1]].mined?)
+    num += 1 if ((self.is_valid? x + NORTH_WEST[0], y + NORTH_WEST[1]) && @squares[x + NORTH_WEST[0]][y + NORTH_WEST[1]].mined?)
     @squares[x][y].num_around_mine = num
   end
 
   def init_mine_count
-    for i in 0...2
-      for j in 0...2
-        count_around_mine(i, j)
+    for i in 0...@rows
+      for j in 0...@rows
+        count_around_mine(i, j) unless get_square(i, j).mined?
       end
     end
   end
@@ -66,9 +66,10 @@ class Board
     open(x + SOUTH_EAST[0], y + SOUTH_EAST[1]) if ((is_valid? x + SOUTH_EAST[0], y + SOUTH_EAST[1]) && @squares[x + SOUTH_EAST[0]][y + SOUTH_EAST[1]].num_around_mine == 0)
     open(x + SOUTH[0], y + SOUTH[1]) if ((is_valid? x + SOUTH[0], y + SOUTH[1]) && @squares[x + SOUTH[0]][y + SOUTH[1]].num_around_mine == 0)
     open(x + SOUTH_WEST[0], y + SOUTH_WEST[1]) if ((is_valid? x + SOUTH_WEST[0], y + SOUTH_WEST[1]) && @squares[x + SOUTH_WEST[0]][y + SOUTH_WEST[1]].num_around_mine == 0)
-    open(x + NORTH_WEST[0], y + NORTH_WEST[1]) if ((is_valid? x + NORTH_WEST[0], y + NORTH_WEST[1]) && @squares[x + NORTH_WEST[0]][y + NORTH_WEST[1]].num_around_mine == 0)
     open(x + WEST[0], y + WEST[1]) if ((is_valid? x + WEST[0], y + WEST[1]) && @squares[x + WEST[0]][y + WEST[1]].num_around_mine == 0)
+    open(x + NORTH_WEST[0], y + NORTH_WEST[1]) if ((is_valid? x + NORTH_WEST[0], y + NORTH_WEST[1]) && @squares[x + NORTH_WEST[0]][y + NORTH_WEST[1]].num_around_mine == 0)
     checkState
+    return @squares[x][y].num_around_mine if !@squares[x][y].mined?
   end
 
   def set_mine(x, y)
@@ -81,7 +82,6 @@ class Board
   end
 
   def checkState
-    puts "#{@spot_num} - #{@open_num} == #{@mine_num}"
     if (@spot_num - @open_num == @mine_num)
       @state = "win"
     else

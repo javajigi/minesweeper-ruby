@@ -52,4 +52,6 @@ class TwoByTwoTest < Test::Unit::TestCase
     @board.open(1, 1)
     assert_equal "win", @board.state
   end
+
+
 end

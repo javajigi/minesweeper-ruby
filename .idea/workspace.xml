@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327b4369-5a28-46a2-ad6e-24352fed3d91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/board.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/direction.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/square.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/two_by_two_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/three_by_three_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/board.rb" afterPath="$PROJECT_DIR$/src/board.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/direction.rb" afterPath="$PROJECT_DIR$/src/direction.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/find-mine.iml" afterPath="$PROJECT_DIR$/.idea/find-mine.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/two_by_two_test.rb" afterPath="$PROJECT_DIR$/test/two_by_two_test.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="find-mine.iws" />
@@ -20,7 +19,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/find-mine@Run_test__two_by_two_test___find_mine.coverage" NAME="Run test 'two_by_two_test': find-mine Coverage Results" MODIFIED="1385966030548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="find-mine" />
+    <SUITE FILE_PATH="coverage/find-mine@test_3X3__0__1___1__0___1__1______0__0____3___find_mine.coverage" NAME="test_3X3에서_(0,_1)_(1,_0)_(1,_1)이_지뢰일_때,_(0,_0)의_지뢰_개수는_3개를_출력: find-mine Coverage Results" MODIFIED="1386220732632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="find-mine" />
+    <SUITE FILE_PATH="coverage/find-mine@Run_test__two_by_two_test___find_mine.coverage" NAME="Run test 'two_by_two_test': find-mine Coverage Results" MODIFIED="1386220744016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="find-mine" />
+    <SUITE FILE_PATH="coverage/find-mine@Run_test__three_by_three_test___find_mine.coverage" NAME="Run test 'three_by_three_test': find-mine Coverage Results" MODIFIED="1386223332378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="find-mine" />
     <SUITE FILE_PATH="coverage/find-mine@BoardTest.coverage" NAME="BoardTest Coverage Results" MODIFIED="1385965368149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="find-mine" />
     <SUITE FILE_PATH="coverage/find-mine@test__.coverage" NAME="test_판_초기화 Coverage Results" MODIFIED="1385964544581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="find-mine" />
   </component>
@@ -36,28 +37,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="board_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="board_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/board_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="2" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.8064516" vertical-offset="360" max-vertical-offset="825">
+            <state line="8" column="25" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="two_by_two_test.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/two_by_two_test.rb">
+      <file leaf-file-name="three_by_three_test.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/three_by_three_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="5" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/square.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="28" column="25" selection-start="676" selection-end="677" vertical-scroll-proportion="1.0447761" vertical-offset="0" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -66,7 +58,25 @@
       <file leaf-file-name="board.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/board.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="14" selection-start="3299" selection-end="3299" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1440">
+            <state line="59" column="44" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="681" max-vertical-offset="1440">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/square.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="26" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assertions.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/test-unit-2.5.5/lib/test/unit/assertions.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="158" column="0" selection-start="5146" selection-end="5146" vertical-scroll-proportion="0.0" vertical-offset="2241" max-vertical-offset="30150">
               <folding />
             </state>
           </provider>
@@ -75,7 +85,7 @@
       <file leaf-file-name="direction.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/direction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="45" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="10" column="27" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
@@ -103,12 +113,13 @@
         <option value="$PROJECT_DIR$/src/Unit.rb" />
         <option value="$PROJECT_DIR$/src/mine.rb" />
         <option value="$PROJECT_DIR$/src/num.rb" />
-        <option value="$PROJECT_DIR$/src/direction.rb" />
         <option value="$PROJECT_DIR$/src/unit.rb" />
-        <option value="$PROJECT_DIR$/src/square.rb" />
         <option value="$PROJECT_DIR$/test/board_test.rb" />
-        <option value="$PROJECT_DIR$/src/board.rb" />
         <option value="$PROJECT_DIR$/test/two_by_two_test.rb" />
+        <option value="$PROJECT_DIR$/src/square.rb" />
+        <option value="$PROJECT_DIR$/src/direction.rb" />
+        <option value="$PROJECT_DIR$/src/board.rb" />
+        <option value="$PROJECT_DIR$/test/three_by_three_test.rb" />
       </list>
     </option>
   </component>
@@ -209,38 +220,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'two_by_two_test': find-mine">
-    <configuration default="false" name="test_판_초기화" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="find-mine" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/board_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_판_초기화" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'three_by_three_test': find-mine">
     <configuration default="false" name="BoardTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="find-mine" />
@@ -338,6 +318,72 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="test_3X3에서_(0,_1)_(1,_0)_(1,_1)이_지뢰일_때,_(0,_0)의_지뢰_개수는_3개를_출력: find-mine" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="find-mine" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/three_by_three_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_3X3에서_(0,_1)_(1,_0)_(1,_1)이_지뢰일_때,_(0,_0)의_지뢰_개수는_3개를_출력" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run test 'three_by_three_test': find-mine" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="find-mine" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/three_by_three_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -419,18 +465,20 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_판_초기화" />
-      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.BoardTest" />
-      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_판_출력" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'two_by_two_test': find-mine" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.BoardTest" />
+      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_판_출력" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'two_by_two_test': find-mine" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_3X3에서_(0,_1)_(1,_0)_(1,_1)이_지뢰일_때,_(0,_0)의_지뢰_개수는_3개를_출력: find-mine" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'three_by_three_test': find-mine" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'two_by_two_test': find-mine" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.BoardTest" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_판_초기화" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'three_by_three_test': find-mine" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'two_by_two_test': find-mine" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_3X3에서_(0,_1)_(1,_0)_(1,_1)이_지뢰일_때,_(0,_0)의_지뢰_개수는_3개를_출력: find-mine" />
         <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_판_출력" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.BoardTest" />
       </list>
     </recent_temporary>
   </component>
@@ -467,21 +515,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2611111" sideWeight="0.5844346" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.414966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.414966" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25700164" sideWeight="0.2701909" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -499,10 +547,45 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/board_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="39" selection-start="1000" selection-end="1000" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/two_by_two_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="5" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/square.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/board.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="14" selection-start="3299" selection-end="3299" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/direction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="45" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/board_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="24" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="1350">
@@ -600,13 +683,6 @@
         <state line="92" column="0" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.33333334" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/direction.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="45" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="55" selection-start="85" selection-end="85" vertical-scroll-proportion="0.07462686" vertical-offset="0" max-vertical-offset="402">
@@ -616,35 +692,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find-mine.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="289" selection-end="289" vertical-scroll-proportion="0.17910448" vertical-offset="48" max-vertical-offset="450">
+        <state line="8" column="53" selection-start="289" selection-end="289" vertical-scroll-proportion="0.17910448" vertical-offset="48" max-vertical-offset="450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/two_by_two_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="44" selection-start="524" selection-end="541" vertical-scroll-proportion="-4.8076925" vertical-offset="190" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/test-unit-2.5.5/lib/test/unit/testcase.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="443" column="0" selection-start="13227" selection-end="13227" vertical-scroll-proportion="0.0" vertical-offset="6519" max-vertical-offset="11460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p195/gems/test-unit-2.5.5/lib/test/unit/assertions.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="0" selection-start="5146" selection-end="5146" vertical-scroll-proportion="0.0" vertical-offset="2241" max-vertical-offset="30150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/square.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/board.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="14" selection-start="3299" selection-end="3299" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/two_by_two_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="5" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="900">
+        <state line="8" column="26" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/board_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="2" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.8064516" vertical-offset="360" max-vertical-offset="825">
+        <state line="8" column="25" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/direction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/board.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="44" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.0" vertical-offset="681" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/three_by_three_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="25" selection-start="676" selection-end="677" vertical-scroll-proportion="1.0447761" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
