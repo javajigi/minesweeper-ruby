@@ -2,6 +2,7 @@ require './helper'
 
 require 'minesweeper/grid'
 require 'minesweeper/index_out_of_bound_error'
+require 'minesweeper/game_over_error'
 
 class GridTest < Test::Unit::TestCase
   setup do
@@ -68,5 +69,20 @@ class GridTest < Test::Unit::TestCase
     assert_raise GameOverError do
       @grid.open(0, 0)
     end
+  end
+
+  test '마인 설치시 주변 스퀘어의 마인 개수를 1증가' do
+    @grid.put_mine(0, 0)
+    assert_equal 1, @grid.get_square(0, 1).near_mine_num
+    assert_equal 1, @grid.get_square(1, 0).near_mine_num
+    assert_equal 1, @grid.get_square(1, 1).near_mine_num
+  end
+
+  test '그리드의 현재 상태를 출력' do
+    @grid = Grid.new(3, 3)
+    @grid.put_mine(0, 0)
+    @grid.open(2, 2)
+
+    assert_equal " 10\n110\n000\n", @grid.render
   end
 end
