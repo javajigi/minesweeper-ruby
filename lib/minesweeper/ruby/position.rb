@@ -1,3 +1,6 @@
+require 'board'
+require 'row'
+
 class Position
   attr_reader :row, :cell
 
