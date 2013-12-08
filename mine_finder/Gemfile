@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in mine_finder.gemspec
+
+gem 'test-unit'
+
+gemspec
