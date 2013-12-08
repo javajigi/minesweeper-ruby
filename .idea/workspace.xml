@@ -22,9 +22,9 @@
     <SUITE FILE_PATH="coverage/minesweeper-ruby@CellTest.coverage" NAME="CellTest Coverage Results" MODIFIED="1385787479108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@test_____minesweeper_ruby.coverage" NAME="test_주변_셀_열기: minesweeper-ruby Coverage Results" MODIFIED="1386537404075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@ruby.coverage" NAME="ruby Coverage Results" MODIFIED="1386116776378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/minesweeper" MODULE_NAME="minesweeper-ruby" />
-    <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__row_test___minesweeper_ruby.coverage" NAME="Run test 'row_test': minesweeper-ruby Coverage Results" MODIFIED="1386542144571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__row_test___minesweeper_ruby.coverage" NAME="Run test 'row_test': minesweeper-ruby Coverage Results" MODIFIED="1386542196700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@test_x__y______minesweeper_ruby.coverage" NAME="test_x,_y를_입력하여_해당_셀을_연다: minesweeper-ruby Coverage Results" MODIFIED="1385790031673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
-    <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__board_test___minesweeper_ruby.coverage" NAME="Run test 'board_test': minesweeper-ruby Coverage Results" MODIFIED="1386540484227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__board_test___minesweeper_ruby.coverage" NAME="Run test 'board_test': minesweeper-ruby Coverage Results" MODIFIED="1386542401694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@RowTest.coverage" NAME="RowTest Coverage Results" MODIFIED="1385787572657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@main.coverage" NAME="main Coverage Results" MODIFIED="1386116851129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/minesweeper" MODULE_NAME="minesweeper-ruby" />
   </component>
@@ -40,19 +40,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="board.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="board.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/board.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1035">
+            <state line="27" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="-0.19318181" vertical-offset="507" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="row.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/row.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="1.5625" vertical-offset="0" max-vertical-offset="1005">
+            <state line="55" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -113,8 +113,8 @@
         <option value="$PROJECT_DIR$/test/row_test.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/ruby/position.rb" />
         <option value="$PROJECT_DIR$/test/board_test.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/ruby/board.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/ruby/row.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/ruby/board.rb" />
       </list>
     </option>
   </component>
@@ -242,7 +242,7 @@
       <recent name="$PROJECT_DIR$/lib/minesweeper/ruby" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'row_test': minesweeper-ruby">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'board_test': minesweeper-ruby">
     <configuration default="false" name="Run test 'board_test': minesweeper-ruby" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="minesweeper-ruby" />
@@ -487,8 +487,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'row_test': minesweeper-ruby" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'board_test': minesweeper-ruby" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'board_test': minesweeper-ruby" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'row_test': minesweeper-ruby" />
         <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_주변_셀_열기: minesweeper-ruby" />
         <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'CellTest': minesweeper-ruby" />
         <item index="4" class="java.lang.String" itemvalue="Ruby.minesweeper-ruby" />
@@ -862,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/board.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="14" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
@@ -878,7 +871,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/row.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="1.5625" vertical-offset="0" max-vertical-offset="1005">
+        <state line="55" column="0" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1005">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/board.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="-0.19318181" vertical-offset="507" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>

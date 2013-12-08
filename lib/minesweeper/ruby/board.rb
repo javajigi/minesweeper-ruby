@@ -14,20 +14,20 @@ class Board
   end
 
   def open(pos)
-    rows[pos.row].open(pos)
+    pos_to_row(pos) { |row| row.open(pos) }
   end
 
   def open?(pos)
-    rows[pos.row].open?(pos)
+    pos_to_row(pos) { |row| row.open?(pos) }
   end
 
   def mine!(pos)
-    rows[pos.row].mine!(pos)
+    pos_to_row(pos) { |row| row.mine!(pos) }
     increment_near_mine_num(pos)
   end
 
   def mine?(pos)
-    rows[pos.row].mine?(pos)
+    pos_to_row(pos) { |row| row.mine?(pos) }
   end
 
   def win?
@@ -35,9 +35,7 @@ class Board
   end
 
   def open_near(pos)
-    near_rows_each(pos) do |row|
-      row.open_near(pos)
-    end
+    near_rows_each(pos) { |row| row.open_near(pos) }
   end
 
   def near_mine_num(pos)
@@ -49,10 +47,12 @@ class Board
   end
 
   private
+  def pos_to_row(pos)
+    yield @rows[pos.row] if pos.valid?
+  end
+
   def increment_near_mine_num(pos)
-    near_rows_each(pos) do |row|
-      row.increment_near_mine_num(pos)
-    end
+    near_rows_each(pos) { |row| row.increment_near_mine_num(pos) }
   end
 
   def near_rows_each(pos)
