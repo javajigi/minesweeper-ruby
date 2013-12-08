@@ -1,4 +1,7 @@
-require'row'
+require 'row'
+require 'position'
+
+
 class Board
   @row_num = 3
   class << self
@@ -11,43 +14,38 @@ class Board
     @rows = Array.new(Board.row_num) { Row.new }
   end
 
-  def open(x, y)
-    rows[x].open(y) if valid?(x)
+  def open(pos)
+    rows[pos.row].open(pos)
   end
 
-  def open?(x, y)
-    rows[x].open?(y) if valid?(x)
+  def open?(pos)
+    rows[pos.row].open?(pos)
   end
 
-  def mine!(x, y)
-    rows[x].mine!(y) if valid?(x)
+  def mine!(pos)
+    rows[pos.row].mine!(pos)
 
-    near_rows(x).each do |row|
-      row.increment_near_mine_num(y)
+    near_rows(pos).each do |row|
+      row.increment_near_mine_num(pos)
     end
   end
 
-  def mine?(x, y)
-    rows[x].mine?(y) if valid?(x)
+  def mine?(pos)
+    rows[pos.row].mine?(pos)
   end
 
   def win?
     @rows.inject(true) { |result, row| result && row.win? }
   end
 
-  def open_near(x, y)
-    @rows[x-1].open_near(y) if valid?(x-1)
-    @rows[x].open_near(y) if valid?(x)
-    @rows[x+1].open_near(y) if valid?(x+1)
+  def open_near(pos)
+    near_rows(pos).each do |row|
+      row.open_near(pos)
+    end
   end
 
-  def set_mark(x, y)
-    mark = near_mine_num(x, y)
-    rows[x].set_mark(y, mark)
-  end
-
-  def get_mark(x, y)
-    rows[x].get_mark(y)
+  def get_mark(pos)
+    rows[pos.row].get_mark(pos)
   end
 
   def to_s
@@ -55,19 +53,19 @@ class Board
   end
 
   private
-  def valid?(x)
-    (0 <= x) && (x < Board.row_num)
-  end
-
   def near_mine_num(x, y)
     result = 0
-    result += @rows[x-1].near_mine_num(y) if valid?(x-1)
-    result += @rows[x].near_mine_num(y) if valid?(x)
-    result += @rows[x+1].near_mine_num(y) if valid?(x+1)
+    result += @rows[x-1].near_mine_num(y)
+    result += @rows[x].near_mine_num(y)
+    result += @rows[x+1].near_mine_num(y)
     result
   end
 
-  def near_rows(x)
-    [rows[x-1], rows[x], rows[x+1]]
+  def near_rows(pos)
+    rows = []
+    pos.near_rows_pos.each do |pos|
+      rows << @rows[pos.row] if pos.row
+    end
+    rows
   end
 end

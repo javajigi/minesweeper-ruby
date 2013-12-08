@@ -11,39 +11,37 @@ class RowTest < Test::Unit::TestCase
   end
 
   test '0번째 셀 열기' do
-    @row.open(0)
-    assert_true @row.open?(0)
-    assert_false @row.open?(1)
-    assert_false @row.open?(2)
+    @row.open(Position.new(0, 0))
+    assert_true @row.open?(Position.new(0, 0))
+    assert_false @row.open?(Position.new(0, 1))
+    assert_false @row.open?(Position.new(0, 2))
   end
 
   test '1번째 셀 지뢰 심기' do
-    @row.mine!(1)
-    assert_false @row.mine?(0)
-    assert_true @row.mine?(1)
-    assert_false @row.mine?(2)
+    @row.mine!(Position.new(0, 1))
+    assert_false @row.mine?(Position.new(0, 0))
+    assert_true @row.mine?(Position.new(0, 1))
+    assert_false @row.mine?(Position.new(0, 2))
   end
 
   test '전부 열리거나 마인이면 이긴다' do
-    @row.open(0)
-    @row.mine!(1)
-    @row.open(2)
+    @row.open(Position.new(0, 0))
+    @row.mine!(Position.new(0, 1))
+    @row.open(Position.new(0, 2))
     assert_true @row.win?
   end
 
-  test '주변 마인 수 세기' do
-    @row.mine!(0)
-    @row.mine!(1)
-    assert_equal 2, @row.near_mine_num(0)
-    assert_equal 2, @row.near_mine_num(1)
-    assert_equal 1, @row.near_mine_num(2)
+  test '마인 심으면 주변 셀의 주변마인수를 올린다' do
+    @row.increment_near_mine_num(Position.new(0, 0))
+    assert_equal 1, @row.near_mine_num(Position.new(0, 0))
+    assert_equal 1, @row.near_mine_num(Position.new(0, 1))
+    assert_equal 0, @row.near_mine_num(Position.new(0, 2))
   end
 
   test '주변 셀 열기' do
-    @row.open_near(2)
-    assert_false @row.open?(0)
-    assert_true @row.open?(1)
-    assert_true @row.open?(2)
+    @row.open_near(Position.new(0, 2))
+    assert_false @row.open?(Position.new(0, 0))
+    assert_true @row.open?(Position.new(0, 1))
+    assert_true @row.open?(Position.new(0, 2))
   end
-
 end
