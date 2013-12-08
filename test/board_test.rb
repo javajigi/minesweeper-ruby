@@ -49,15 +49,15 @@ class BoardTest < Test::Unit::TestCase
 
   end
 
-  test '셀에 주변 마인 수 입력하기' do
+  test '셀에 주변 마인 수 읽기' do
     @board.mine!(0, 0)
     @board.mine!(0, 2)
     @board.mine!(1, 1)
 
-    @board.set_mark(1, 0)
+    @board.open(1, 0)
     assert_equal 2, @board.get_mark(1, 0)
 
-    @board.set_mark(0, 1)
+    @board.open(0, 1)
     assert_equal 3, @board.get_mark(0, 1)
   end
 end

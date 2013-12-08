@@ -1,7 +1,10 @@
 class Cell
+  attr_reader :near_mine_num
   attr_accessor :mark
+
   def initialize
     @mark = '-'
+    @near_mine_num = 0
   end
 
   def empty?
@@ -17,11 +20,15 @@ class Cell
   end
 
   def open
-    @mark = 0
+    @mark = @near_mine_num
   end
 
   def open?
     @mark.instance_of?(Fixnum)
+  end
+
+  def increment_near_mine_num
+    @near_mine_num += 1
   end
 
   def win?

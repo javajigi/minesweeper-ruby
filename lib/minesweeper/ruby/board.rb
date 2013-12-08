@@ -21,6 +21,10 @@ class Board
 
   def mine!(x, y)
     rows[x].mine!(y) if valid?(x)
+
+    near_rows(x).each do |row|
+      row.increment_near_mine_num(y)
+    end
   end
 
   def mine?(x, y)
@@ -61,5 +65,9 @@ class Board
     result += @rows[x].near_mine_num(y) if valid?(x)
     result += @rows[x+1].near_mine_num(y) if valid?(x+1)
     result
+  end
+
+  def near_rows(x)
+    [rows[x-1], rows[x], rows[x+1]]
   end
 end

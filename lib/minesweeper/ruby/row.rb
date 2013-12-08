@@ -23,6 +23,12 @@ class Row
     @cells[i].mine! if valid?(i)
   end
 
+  def increment_near_mine_num(i)
+    @cells[i-1].increment_near_mine_num if valid?(i-1)
+    @cells[i].increment_near_mine_num if valid?(i)
+    @cells[i+1].increment_near_mine_num if valid?(i+1)
+  end
+
   def mine?(i)
     @cells[i].mine? if valid?(i)
   end

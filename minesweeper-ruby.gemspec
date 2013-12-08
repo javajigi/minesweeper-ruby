@@ -1,5 +1,5 @@
 # coding: utf-8
-dir = File.expand_path('../lib/minesweeper/ruby', __FILE__)
+dir = File.expand_path('lib/minesweeper/ruby')
 $LOAD_PATH.unshift(dir) unless $LOAD_PATH.include?(dir)
 require 'version'
 
@@ -21,3 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
+
+
