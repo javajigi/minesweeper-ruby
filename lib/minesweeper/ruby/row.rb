@@ -14,19 +14,19 @@ class Row
   end
 
   def open(pos)
-    @cells[pos.cell].open if pos.valid?
+    pos_to_cell(pos) { |cell| cell.open }
   end
 
   def open?(pos)
-    @cells[pos.cell].open?
+    pos_to_cell(pos) { |cell| cell.open? }
   end
 
   def mine!(pos)
-    @cells[pos.cell].mine!
+    pos_to_cell(pos) { |cell| cell.mine! }
   end
 
   def mine?(pos)
-    @cells[pos.cell].mine?
+    pos_to_cell(pos) { |cell| cell.mine? }
   end
 
   def win?
@@ -34,19 +34,15 @@ class Row
   end
 
   def open_near(pos)
-    near_cells_each(pos) do |cell|
-      cell.open
-    end
+    near_cells_each(pos) { |cell| cell.open }
   end
 
   def near_mine_num(pos)
-    @cells[pos.cell].near_mine_num if pos.valid?
+    pos_to_cell(pos) { |cell| cell.near_mine_num }
   end
 
   def increment_near_mine_num(pos)
-    near_cells_each(pos) do |cell|
-      cell.increment_near_mine_num
-    end
+    near_cells_each(pos) { |cell| cell.increment_near_mine_num }
   end
 
   def to_s
@@ -54,6 +50,10 @@ class Row
   end
 
   private
+  def pos_to_cell(pos)
+    yield @cells[pos.cell] if pos.valid?
+  end
+
   def near_cells_each(pos)
     pos.near_cells_pos.each do |pos|
       yield @cells[pos.cell] if pos.valid?

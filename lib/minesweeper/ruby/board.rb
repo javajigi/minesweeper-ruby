@@ -1,7 +1,6 @@
 require 'row'
 require 'position'
 
-
 class Board
   @row_num = 3
   class << self
