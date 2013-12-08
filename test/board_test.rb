@@ -62,10 +62,7 @@ class BoardTest < Test::Unit::TestCase
     @board.mine!(Position.new(0, 2))
     @board.mine!(Position.new(1, 1))
 
-    @board.open(Position.new(1, 0))
-    assert_equal 2, @board.get_mark(Position.new(1, 0))
-
-    @board.open(Position.new(0, 1))
-    assert_equal 3, @board.get_mark(Position.new(0, 1))
+    assert_equal 2, @board.near_mine_num(Position.new(1, 0))
+    assert_equal 3, @board.near_mine_num(Position.new(0, 1))
   end
 end

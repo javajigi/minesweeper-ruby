@@ -7,7 +7,8 @@ class Row
     attr_accessor :cell_num
   end
 
-  attr_accessor :cells
+  attr_reader :cells
+
   def initialize
     @cells = Array.new(Row.cell_num) { Cell.new }
   end
@@ -24,12 +25,6 @@ class Row
     @cells[pos.cell].mine!
   end
 
-  def increment_near_mine_num(pos)
-    near_cells(pos).each do |cell|
-      cell.increment_near_mine_num
-    end
-  end
-
   def mine?(pos)
     @cells[pos.cell].mine?
   end
@@ -44,17 +39,20 @@ class Row
     end
   end
 
-  def get_mark(pos)
-    @cells[pos.cell].mark
+  def near_mine_num(pos)
+    @cells[pos.cell].near_mine_num if pos.valid?
+  end
+
+  def increment_near_mine_num(pos)
+    near_cells(pos).each do |cell|
+      cell.increment_near_mine_num
+    end
   end
 
   def to_s
-    @cells.inject('') {|result, cell| result += cell.to_s}
+    @cells.inject('') { |result, cell| result += cell.to_s }
   end
 
-  def near_mine_num(pos)
-    @cells[pos.cell].near_mine_num if pos.cell
-  end
   private
   def near_cells(pos)
     cells = []
