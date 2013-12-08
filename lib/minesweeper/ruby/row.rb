@@ -34,8 +34,8 @@ class Row
   end
 
   def open_near(pos)
-    pos.near_cells_pos.each do |cell_pos|
-      open(cell_pos)
+    near_cells_each(pos) do |cell|
+      cell.open
     end
   end
 
@@ -44,7 +44,7 @@ class Row
   end
 
   def increment_near_mine_num(pos)
-    near_cells(pos).each do |cell|
+    near_cells_each(pos) do |cell|
       cell.increment_near_mine_num
     end
   end
@@ -54,11 +54,9 @@ class Row
   end
 
   private
-  def near_cells(pos)
-    cells = []
+  def near_cells_each(pos)
     pos.near_cells_pos.each do |pos|
-      cells << @cells[pos.cell] if pos.valid?
+      yield @cells[pos.cell] if pos.valid?
     end
-    cells
   end
 end

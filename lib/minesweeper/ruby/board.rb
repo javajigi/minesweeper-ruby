@@ -41,12 +41,12 @@ class Board
     end
   end
 
-  def to_s
-    @rows.inject('') { |result, row| result += row.to_s + "\n" }
-  end
-
   def near_mine_num(pos)
     @rows[pos.row].near_mine_num(pos)
+  end
+
+  def to_s
+    @rows.inject('') { |result, row| result += row.to_s + "\n" }
   end
 
   private
