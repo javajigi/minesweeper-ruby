@@ -24,10 +24,7 @@ class Board
 
   def mine!(pos)
     rows[pos.row].mine!(pos)
-
-    near_rows_each(pos) do |row|
-      row.increment_near_mine_num(pos)
-    end
+    increment_near_mine_num(pos)
   end
 
   def mine?(pos)
@@ -44,10 +41,6 @@ class Board
     end
   end
 
-  def get_mark(pos)
-    rows[pos.row].get_mark(pos)
-  end
-
   def to_s
     @rows.inject('') { |result, row| result += row.to_s + "\n" }
   end
@@ -57,6 +50,12 @@ class Board
   end
 
   private
+  def increment_near_mine_num(pos)
+    near_rows_each(pos) do |row|
+      row.increment_near_mine_num(pos)
+    end
+  end
+
   def near_rows_each(pos)
     pos.near_rows_pos.each do |pos|
       yield @rows[pos.row] if pos.valid?
