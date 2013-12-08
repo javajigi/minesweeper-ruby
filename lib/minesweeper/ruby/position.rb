@@ -6,12 +6,8 @@ class Position
     @cell = y
   end
 
-  def row
-    @row if valid_row?
-  end
-
-  def cell
-    @cell if valid_cell?
+  def valid?
+    valid_row? && valid_cell?
   end
 
   def near_rows_pos

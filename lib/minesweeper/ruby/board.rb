@@ -64,7 +64,7 @@ class Board
   def near_rows(pos)
     rows = []
     pos.near_rows_pos.each do |pos|
-      rows << @rows[pos.row] if pos.row
+      rows << @rows[pos.row] if pos.valid?
     end
     rows
   end

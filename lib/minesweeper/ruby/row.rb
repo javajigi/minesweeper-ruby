@@ -13,7 +13,7 @@ class Row
   end
 
   def open(pos)
-    pos.cell && @cells[pos.cell].open
+    @cells[pos.cell].open if pos.valid?
   end
 
   def open?(pos)
@@ -59,7 +59,7 @@ class Row
   def near_cells(pos)
     cells = []
     pos.near_cells_pos.each do |pos|
-      cells << @cells[pos.cell] if pos.cell
+      cells << @cells[pos.cell] if pos.valid?
     end
     cells
   end
