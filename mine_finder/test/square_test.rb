@@ -23,4 +23,15 @@ class SquareTest < Test::Unit::TestCase
     @square.mine!
     assert_true (@square.mine?)
   end
+
+  test '지뢰가 아닌 스퀘어를 열면 승리한다.' do
+    @square.open!
+    assert_true (@square.win?)
+  end
+
+  test '지뢰인 스퀘어를 열면 패배한다.' do
+    @square.mine!
+    @square.open!
+    assert_false(@square.win?)
+  end
 end

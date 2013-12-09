@@ -9,7 +9,6 @@ class Square
     @mined = true
   end
 
-
   def mine?
     @mined
   end
@@ -22,4 +21,7 @@ class Square
     @opened
   end
 
+  def win?
+    return true if ( @opened and not @mined ) else false
+  end
 end

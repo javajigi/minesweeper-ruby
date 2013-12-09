@@ -15,7 +15,7 @@
     <SUITE FILE_PATH="coverage/mine_finder@test_adder.coverage" NAME="test_adder Coverage Results" MODIFIED="1386256579648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/test-unit-2.5.5/sample" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@test____mine_finder.coverage" NAME="test_판_초기화: mine_finder Coverage Results" MODIFIED="1386288172005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@Run_test__board_test___mine_finder.coverage" NAME="Run test 'board_test': mine_finder Coverage Results" MODIFIED="1386512425561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
-    <SUITE FILE_PATH="coverage/mine_finder@Run_test__square_test___mine_finder.coverage" NAME="Run test 'square_test': mine_finder Coverage Results" MODIFIED="1386553802141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
+    <SUITE FILE_PATH="coverage/mine_finder@Run_test__square_test___mine_finder.coverage" NAME="Run test 'square_test': mine_finder Coverage Results" MODIFIED="1386555072670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@Run_test__BoardTest___mine_finder.coverage" NAME="Run test 'BoardTest': mine_finder Coverage Results" MODIFIED="1386256351985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@test_abb__mine_finder.coverage" NAME="test_abb: mine_finder Coverage Results" MODIFIED="1386310822591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
   </component>
@@ -31,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="square_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="square_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/square_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.373444" vertical-offset="0" max-vertical-offset="482">
+            <state line="35" column="5" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -43,16 +43,16 @@
       <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/square.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="11" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="24" column="56" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="week1.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="week1.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="29" selection-start="57" selection-end="57" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="285">
+            <state line="13" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.42669585" vertical-offset="0" max-vertical-offset="457">
               <folding />
             </state>
           </provider>
@@ -73,11 +73,11 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/test-unit-2.5.5/sample/test_user.rb" />
         <option value="$PROJECT_DIR$/test/board_test.rb" />
-        <option value="$PROJECT_DIR$/week1.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/squre.rb" />
-        <option value="$PROJECT_DIR$/src/square.rb" />
         <option value="$PROJECT_DIR$/test/square_test.rb" />
+        <option value="$PROJECT_DIR$/src/square.rb" />
+        <option value="$PROJECT_DIR$/week1.md" />
       </list>
     </option>
   </component>
@@ -655,23 +655,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week1.md">
+    <entry file="file://$PROJECT_DIR$/test/square_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="57" selection-end="57" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="285">
+        <state line="35" column="5" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="148" max-vertical-offset="630">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/square.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="24" column="56" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/square_test.rb">
+    <entry file="file://$PROJECT_DIR$/week1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.373444" vertical-offset="0" max-vertical-offset="482">
+        <state line="13" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.42669585" vertical-offset="0" max-vertical-offset="457">
           <folding />
         </state>
       </provider>
