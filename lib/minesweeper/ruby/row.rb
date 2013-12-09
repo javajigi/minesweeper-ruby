@@ -2,7 +2,7 @@ require 'cell'
 require 'position'
 
 class Row
-  @cell_num = 3
+  @cell_num = 5
   class << self
     attr_accessor :cell_num
   end
@@ -13,8 +13,9 @@ class Row
     @cells = Array.new(Row.cell_num) { Cell.new }
   end
 
+  # 열려 있으면 넘어간다
   def open(pos)
-    pos_to_cell(pos) { |cell| cell.open }
+    pos_to_cell(pos) { |cell| cell.open unless cell.open? }
   end
 
   def open?(pos)
@@ -33,8 +34,13 @@ class Row
     @cells.inject(true) { |result, cell| result && cell.win? }
   end
 
-  def open_near(pos)
-    near_cells_each(pos) { |cell| cell.open }
+  def open_near(pos, board)
+    pos.near_cells_pos.each do |pos|
+      unless open?(pos)
+        open(pos)
+        board.open_near(pos) if safe?(pos)
+      end
+    end
   end
 
   def near_mine_num(pos)
@@ -50,13 +56,17 @@ class Row
   end
 
   private
+  def safe?(pos)
+    pos_to_cell(pos) { |cell| cell.safe? }
+  end
+
   def pos_to_cell(pos)
     yield @cells[pos.cell] if pos.valid?
   end
 
   def near_cells_each(pos)
     pos.near_cells_pos.each do |pos|
-      yield @cells[pos.cell] if pos.valid?
+      yield @cells[pos.cell]
     end
   end
 end

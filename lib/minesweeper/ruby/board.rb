@@ -2,7 +2,7 @@ require 'row'
 require 'position'
 
 class Board
-  @row_num = 3
+  @row_num = 5
   class << self
     attr_accessor :row_num
   end
@@ -35,7 +35,7 @@ class Board
   end
 
   def open_near(pos)
-    near_rows_each(pos) { |row| row.open_near(pos) }
+    near_rows_each(pos) { |row, pos| row.open_near(pos, self) }
   end
 
   def near_mine_num(pos)
@@ -57,7 +57,7 @@ class Board
 
   def near_rows_each(pos)
     pos.near_rows_pos.each do |pos|
-      yield @rows[pos.row] if pos.valid?
+      yield @rows[pos.row], pos if pos.valid?
     end
   end
 end

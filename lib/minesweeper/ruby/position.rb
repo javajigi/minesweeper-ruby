@@ -14,11 +14,19 @@ class Position
   end
 
   def near_rows_pos
-    [Position.new(@row-1, @cell), self, Position.new(@row+1, @cell)]
+    result = []
+    result << Position.new(@row-1, @cell) if Position.new(@row-1, @cell).valid?
+    result << Position.new(@row, @cell) if Position.new(@row, @cell).valid?
+    result << Position.new(@row+1, @cell) if Position.new(@row+1, @cell).valid?
+    result
   end
 
   def near_cells_pos
-    [Position.new(@row, @cell-1), self, Position.new(@row, @cell+1)]
+    result = []
+    result << Position.new(@row, @cell-1) if Position.new(@row, @cell-1).valid?
+    result << Position.new(@row, @cell) if Position.new(@row, @cell).valid?
+    result << Position.new(@row, @cell+1) if Position.new(@row, @cell+1).valid?
+    result
   end
 
   private

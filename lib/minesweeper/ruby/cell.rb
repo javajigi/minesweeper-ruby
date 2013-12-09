@@ -35,6 +35,10 @@ class Cell
     mine? || open?
   end
 
+  def safe?
+    @near_mine_num == 0
+  end
+
   def to_s
     @mark.to_s
   end
