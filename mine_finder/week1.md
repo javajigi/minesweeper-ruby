@@ -12,3 +12,6 @@ Square를 open할 때 mine이면 '*'를 반환한다.
 
 ================
 Complete List
+
+
+

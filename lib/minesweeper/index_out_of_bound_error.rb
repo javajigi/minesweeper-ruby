@@ -1,3 +1,0 @@
-class IndexOutOfBoundError < StandardError
-  
-end
