@@ -1,5 +1,6 @@
 require 'test/unit'
 require '../src/square'
+#require './helper'
 
 class SquareTest < Test::Unit::TestCase
   setup do
