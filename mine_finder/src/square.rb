@@ -24,4 +24,16 @@ class Square
   def win?
     return true if ( @opened and not @mined ) else false
   end
+
+  def symbol
+    if not @opened
+      return ' '
+    else
+      if @mined
+        return '*'
+      else
+        return '0'
+      end
+    end
+  end
 end

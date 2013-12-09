@@ -15,7 +15,7 @@
     <SUITE FILE_PATH="coverage/mine_finder@test_adder.coverage" NAME="test_adder Coverage Results" MODIFIED="1386256579648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/test-unit-2.5.5/sample" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@test____mine_finder.coverage" NAME="test_판_초기화: mine_finder Coverage Results" MODIFIED="1386288172005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@Run_test__board_test___mine_finder.coverage" NAME="Run test 'board_test': mine_finder Coverage Results" MODIFIED="1386512425561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
-    <SUITE FILE_PATH="coverage/mine_finder@Run_test__square_test___mine_finder.coverage" NAME="Run test 'square_test': mine_finder Coverage Results" MODIFIED="1386555072670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
+    <SUITE FILE_PATH="coverage/mine_finder@Run_test__square_test___mine_finder.coverage" NAME="Run test 'square_test': mine_finder Coverage Results" MODIFIED="1386556241667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@Run_test__BoardTest___mine_finder.coverage" NAME="Run test 'BoardTest': mine_finder Coverage Results" MODIFIED="1386256351985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@test_abb__mine_finder.coverage" NAME="test_abb: mine_finder Coverage Results" MODIFIED="1386310822591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
   </component>
@@ -34,7 +34,7 @@
       <file leaf-file-name="square_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/square_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="5" selection-start="670" selection-end="670" vertical-scroll-proportion="0.93775934" vertical-offset="88" max-vertical-offset="645">
+            <state line="49" column="17" selection-start="956" selection-end="956" vertical-scroll-proportion="0.813278" vertical-offset="343" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/square.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="29" column="15" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file leaf-file-name="week1.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="282" selection-end="282" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="285">
+            <state line="4" column="39" selection-start="29" selection-end="68" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
@@ -484,7 +484,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22214484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.348659" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.348659" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32822478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -657,21 +657,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="282" selection-end="282" vertical-scroll-proportion="-7.8" vertical-offset="0" max-vertical-offset="285">
+        <state line="4" column="39" selection-start="29" selection-end="68" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="300">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/square.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="29" column="15" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/square_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="670" selection-end="670" vertical-scroll-proportion="0.93775934" vertical-offset="88" max-vertical-offset="645">
+        <state line="49" column="17" selection-start="956" selection-end="956" vertical-scroll-proportion="0.813278" vertical-offset="343" max-vertical-offset="885">
           <folding />
         </state>
       </provider>
