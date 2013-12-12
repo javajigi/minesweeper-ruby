@@ -2,8 +2,19 @@ require '../src/index_out_of_bound_error' #현재 경로가 mine_finder라서 �
 
 class Grid
 
-  def initialize(row, column)
+  #def initialize(row, column, rand_mine_num)
+  #  initialize(row, column)
+  #  srand(Time.now.usec)
+  #
+  #end
+  attr_reader :mines
+
+  def initialize(row, column, rand_mine_num)
     @rows = Array.new(row){Array.new(column) { |index| Square.new }}
+    @mines = Array.new
+
+    srand(Time.now.usec)
+    set_random_mine(rand_mine_num)
   end
 
   def row
@@ -75,4 +86,24 @@ class Grid
   def win?
     true
   end
+
+  def set_random_mine(mine_num)
+    return if mine_num == 0
+    while ( mine_num != 0 )
+      mine_num -= set_mine( rand(0..row-1), rand(0..column-1) )
+    end
+  end
+
+  def set_mine( row, col )
+    square = get_square(row, col)
+
+    if ( square.mined )
+      return 0
+    else
+      @mines << square
+      square.mine!
+      return 1
+    end
+  end
+
 end
