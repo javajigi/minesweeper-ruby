@@ -13,31 +13,19 @@ class SquareTest < Test::Unit::TestCase
   end
 
   test '스퀘어 open, close 테스트' do
-    assert_false (@square.opened?)
+    assert_false (@square.opened)
     @square.open!
-    assert_true (@square.opened?)
+    assert_true (@square.opened)
   end
 
   test '스퀘어 마인 설치테스트' do
-    assert_false (@square.mine?)
+    assert_false (@square.mined)
     @square.mine!
-    assert_true (@square.mine?)
-  end
-
-
-  test '지뢰가 아닌 스퀘어를 열면 승리한다.' do
-    @square.open!
-    assert_true (@square.win?)
-  end
-
-  test '지뢰인 스퀘어를 열면 패배한다.' do
-    @square.mine!
-    @square.open!
-    assert_false(@square.win?)
+    assert_true (@square.mined)
   end
 
   test '스퀘어가 close 상태일 경우 공란문자를 반환한다.' do
-    assert_false(@square.opened?)
+    assert_false(@square.opened)
     assert_equal(' ', @square.symbol)
   end
 

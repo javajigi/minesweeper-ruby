@@ -1,6 +1,7 @@
 class Square
 
   attr_accessor :near_mine_num
+  attr_reader :mined, :opened
 
   def initialize
     @mined = false
@@ -12,17 +13,9 @@ class Square
     @mined = true
   end
 
-  def mine?
-    @mined
-  end
-
   def open!
     raise GameOverError.new if @mined
     @opened = true
-  end
-
-  def opened?
-    @opened
   end
 
   def symbol

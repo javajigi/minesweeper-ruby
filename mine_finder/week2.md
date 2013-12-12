@@ -1,10 +1,7 @@
 ================
 Todo List
 
-
-지뢰가 있는 스퀘어를 오픈할 경우 GameOverError이 발생함.
-
-모두 지뢰인 경우 자동으로 win
+모두 지뢰인 경우 자동으로 win -> 현재단계에서 구현할 사항이 아니므로 모든 경우에 대해 임시 true값을 반환토록 처리함
 전체 리팩토링
 ================
 Complete List
@@ -23,3 +20,4 @@ open, setMine기능 리팩토링
 - 해당 square를 모두 돌며 near_mine_num이 0일 경우 재귀적으로 open한다.
 반복되는 for문 리팩토링
 승리조건 리팩토링 (square의 승리판별 함수 삭제 -> row로 옮길것임)
+지뢰가 있는 스퀘어를 오픈할 경우 GameOverError이 발생함.

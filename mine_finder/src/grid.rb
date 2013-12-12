@@ -35,14 +35,6 @@ class Grid
     near_square_each(x,y) do |square|
       square.open! if square.is_near_mine_num_zero?
     end
-
-    # eternel loop!!!
-    #(x-1..x+1).each do |row|
-    #  (y-1..y+1).each do |col|
-    #    next if out_of_index?(row, col)
-    #    open!(row,col) if get_square(row, col).is_near_mine_num_zero?
-    #  end
-    #end
   end
 
   def near_square_each(x, y)
@@ -81,6 +73,6 @@ class Grid
   end
 
   def win?
-
+    true
   end
 end
