@@ -31,7 +31,7 @@
     <SUITE FILE_PATH="coverage/minesweeper-ruby@board.coverage" NAME="board Coverage Results" MODIFIED="1386886513414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/minesweeper/ruby" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@RowTest.coverage" NAME="RowTest Coverage Results" MODIFIED="1385787572657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__board_test___minesweeper_ruby.coverage" NAME="Run test 'board_test': minesweeper-ruby Coverage Results" MODIFIED="1386549315478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
-    <SUITE FILE_PATH="coverage/minesweeper-ruby@main.coverage" NAME="main Coverage Results" MODIFIED="1386890145719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/minesweeper/ruby" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@main.coverage" NAME="main Coverage Results" MODIFIED="1386890212500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/minesweeper/ruby" MODULE_NAME="minesweeper-ruby" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -54,19 +54,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="board.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="board.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/board.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.23542601" vertical-offset="45" max-vertical-offset="1215">
+            <state line="10" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="position.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="position.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/position.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="17" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="885">
+            <state line="13" column="10" selection-start="209" selection-end="209" vertical-scroll-proportion="0.36995515" vertical-offset="30" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -118,9 +118,9 @@
         <option value="$PROJECT_DIR$/test/row_test.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/ruby/cell.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/ruby/row.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/ruby/position.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/ruby/board.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/ruby/game_controller.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/ruby/position.rb" />
       </list>
     </option>
   </component>
@@ -518,7 +518,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -530,7 +530,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54172015" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3915276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3915276" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -832,13 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/position.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="17" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="5" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="750">
@@ -855,7 +848,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/board.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.23542601" vertical-offset="45" max-vertical-offset="1215">
+        <state line="10" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/ruby/position.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="10" selection-start="209" selection-end="209" vertical-scroll-proportion="0.36995515" vertical-offset="30" max-vertical-offset="855">
           <folding />
         </state>
       </provider>

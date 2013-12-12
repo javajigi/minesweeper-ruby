@@ -11,9 +11,7 @@ class Position
     end
 
     def rand_position
-      x = rand*Board.row_num
-      y = rand*Row.cell_num
-      self.new(x, y)
+      self.new(rand*Board.row_num, rand*Row.cell_num)
     end
   end
 
