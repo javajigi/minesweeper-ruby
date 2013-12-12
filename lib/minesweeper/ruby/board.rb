@@ -34,6 +34,10 @@ class Board
     @rows.inject(true) { |result, row| result && row.win? }
   end
 
+  def safe?(pos)
+    pos_to_row(pos) { |row| row.safe?(pos) }
+  end
+
   def open_near(pos)
     near_rows_each(pos) { |row, pos| row.open_near(pos, self) }
   end

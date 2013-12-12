@@ -5,8 +5,8 @@ class Position
   attr_reader :row, :cell
 
   def initialize(x, y)
-    @row = x
-    @cell = y
+    @row = x.to_i
+    @cell = y.to_i
   end
 
   def valid?

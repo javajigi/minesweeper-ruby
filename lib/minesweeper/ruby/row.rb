@@ -34,6 +34,10 @@ class Row
     @cells.inject(true) { |result, cell| result && cell.win? }
   end
 
+  def safe?(pos)
+    pos_to_cell(pos) { |cell| cell.safe? }
+  end
+
   def open_near(pos, board)
     pos.near_cells_pos.each do |pos|
       unless open?(pos)
@@ -56,9 +60,6 @@ class Row
   end
 
   private
-  def safe?(pos)
-    pos_to_cell(pos) { |cell| cell.safe? }
-  end
 
   def pos_to_cell(pos)
     yield @cells[pos.cell] if pos.valid?

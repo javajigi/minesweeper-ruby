@@ -21,18 +21,14 @@ class GameController
   end
 
   def run
-    @board.mine!(2, 2)
-    while true
-      puts @board
-      puts '어느 곳을 열어보시겠습니까?'
+    until @board.win?
+      puts @board, '어느 곳을 열어보시겠습니까?'
       x, y = parse(gets)
-      x = x.to_i
-      y = y.to_i
-      break if @board.mine?(x, y)
-      @board.open(x, y)
-      @board.set_mark(x, y)
-      @board.open_near(x, y) if @board.get_mark(x, y) == 0
+      position = Position.new(x, y)
+      break if @board.mine?(position)
+      @board.open(position)
+      @board.open_near(position) if @board.safe?(position)
     end
-    puts '< Game Over >'
+    puts @board, '< Game Over >'
   end
 end
