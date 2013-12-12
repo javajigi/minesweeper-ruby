@@ -33,4 +33,17 @@ class RowTest < Test::Unit::TestCase
     assert_false @row.flag?(Position.new(0, 1))
     assert_false @row.flag?(Position.new(0, 2))
   end
+
+  test '마인을 제외한 지역이 모두 열려있으면 이긴다.' do
+    @row.mine!(Position.new(0, 0))
+    @row.mine!(Position.new(0, 1))
+    assert_false @row.win?
+
+    @row.open(Position.new(0, 2))
+    @row.open(Position.new(0, 3))
+    assert_false @row.win?
+
+    @row.open(Position.new(0, 4))
+    assert_true @row.win?
+  end
 end
