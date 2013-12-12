@@ -79,4 +79,8 @@ class Grid
     end
     return arr
   end
+
+  def win?
+
+  end
 end

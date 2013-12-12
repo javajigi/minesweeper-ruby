@@ -17,15 +17,12 @@ class Square
   end
 
   def open!
+    raise GameOverError.new if @mined
     @opened = true
   end
 
   def opened?
     @opened
-  end
-
-  def win?
-    return true if ( @opened and not @mined ) else false
   end
 
   def symbol

@@ -1,6 +1,7 @@
 require 'test/unit'
 require '../src/grid'
 require '../src/square'
+require '../src/game_over_error'
 #require './helper'
 
 class GridTest < Test::Unit::TestCase
@@ -18,8 +19,10 @@ class GridTest < Test::Unit::TestCase
   test '(1, 1)이 지뢰이고, (1, 1)을 open하면 게임에 진다.' do
     square = @grid.get_square(1,1)
     square.mine!
-    square.open!
-    assert_false(square.win?)
+
+    assert_raise GameOverError do
+      square.open!
+    end
   end
 
   test 'Grid 출력 테스트' do
@@ -29,13 +32,11 @@ class GridTest < Test::Unit::TestCase
                     "  "+"\n"
     assert_equal(expect_result, @grid.print)
 
-
-    #0,0 마인설치 & 오픈후 출력
-    expect_result = "* "+"\n"+
+    expect_result = " 1"+"\n"+
         "  "+"\n"
 
     @grid.mine!(0,0)
-    @grid.open!(0,0)
+    @grid.open!(0,1)
     assert_equal(expect_result, @grid.print)
   end
 
@@ -68,4 +69,15 @@ class GridTest < Test::Unit::TestCase
     @grid.open!(0,0)
     assert_equal(expect_result, @grid.print)
   end
+
+  #test '모두 지뢰인 경우 자동으로 win' do
+  #  @rows.each do |row|
+  #    row.each do |square|
+  #      square.mine!
+  #    end
+  #  end
+  #
+  #  assert_true(@grid.win?)
+  #end
+
 end
