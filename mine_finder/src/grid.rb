@@ -11,6 +11,7 @@ class Grid
 
   def initialize(row, column, rand_mine_num)
     @rows = Array.new(row){Array.new(column) { |index| Square.new }}
+    @access_record = Array.new(row){Array.new(column) { |index| 0 }}
     @mines = Array.new
 
     srand(Time.now.usec)
@@ -40,8 +41,10 @@ class Grid
   end
 
   def open!(x, y)
+    return if is_already_open?(x, y)
     square = get_square(x, y)
     square.open!
+    @access_record[x][y] = 1
 
     near_square_each(x,y) do |square|
       square.open! if square.is_near_mine_num_zero?
@@ -109,4 +112,7 @@ class Grid
     end
   end
 
+  def is_already_open?(row, col)
+    @access_record[row][col] == 1
+  end
 end
