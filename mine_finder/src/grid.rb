@@ -84,7 +84,10 @@ class Grid
   end
 
   def win?
-    true
+    @mines.each do |square|
+      return false unless square.flag
+    end
+    return true
   end
 
   def set_random_mine(mine_num)

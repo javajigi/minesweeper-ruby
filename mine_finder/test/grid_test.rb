@@ -117,4 +117,26 @@ class GridTest < Test::Unit::TestCase
     @grid = Grid.new(3,3, generate_num)
     assert_equal(generate_num, @grid.mines.length)
   end
+
+  test '모든 지뢰에만 flag 꽂았을 때 게임 승' do
+    @grid.set_mine(0, 0)
+    @grid.set_mine(1, 1)
+    @grid.set_mine(0, 1)
+
+    @grid.get_square(0, 0).flag!
+    assert_false(@grid.win?)
+
+    @grid.get_square(1, 1).flag!
+    assert_false(@grid.win?)
+
+    @grid.get_square(0,1).flag!
+    assert_true(@grid.win?)
+
+    @grid.set_mine(1, 0)
+    assert_false(@grid.win?)
+
+    @grid.get_square(1, 0).flag!
+    assert_true(@grid.win?)
+  end
+
 end
