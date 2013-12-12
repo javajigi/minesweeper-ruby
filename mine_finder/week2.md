@@ -1,7 +1,6 @@
 ================
 Todo List
 
-반복되는 for문 리팩토링
 모두 지뢰인 경우 자동으로 win
 승리조건 리팩토링
 ================
@@ -19,3 +18,4 @@ open, setMine기능 리팩토링
 - 주변의 square를 모두 가져오는 함수를 구현한다.
 - mine!함수에서 주변 square의 near_mine_num증가 부분 리팩토링.
 - 해당 square를 모두 돌며 near_mine_num이 0일 경우 재귀적으로 open한다.
+반복되는 for문 리팩토링

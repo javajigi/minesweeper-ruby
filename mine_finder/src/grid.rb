@@ -23,10 +23,7 @@ class Grid
     square = get_square(x, y)
     square.mine!
 
-    near_squares = Array.new
-    near_squares = get_near_squares(x, y)
-
-    near_squares.each do |square|
+    near_square_each(x,y) do |square|
       square.increase_near_mine_num
     end
   end
@@ -35,10 +32,7 @@ class Grid
     square = get_square(x, y)
     square.open!
 
-    near_squares = Array.new
-    near_squares = get_near_squares(x, y)
-
-    near_squares.each do |square|
+    near_square_each(x,y) do |square|
       square.open! if square.is_near_mine_num_zero?
     end
 
@@ -49,6 +43,15 @@ class Grid
     #    open!(row,col) if get_square(row, col).is_near_mine_num_zero?
     #  end
     #end
+  end
+
+  def near_square_each(x, y)
+    near_squares = Array.new
+    near_squares = get_near_squares(x, y)
+
+    near_squares.each do |square|
+      yield square
+    end
   end
 
   def out_of_index?(x, y)
@@ -69,7 +72,6 @@ class Grid
 
   def get_near_squares(x, y)
     arr = Array.new
-
     (x-1..x+1).each do |row|
       (y-1..y+1).each do |col|
         arr << get_square(row, col) unless out_of_index?(row, col)
