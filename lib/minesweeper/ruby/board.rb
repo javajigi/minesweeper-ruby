@@ -11,6 +11,14 @@ class Board
 
   def initialize
     @rows = Array.new(Board.row_num) { Row.new }
+    rand_mines
+  end
+
+  def rand_mines
+    5.times.each do
+      position = Position.rand_position
+      mine!(position)
+    end
   end
 
   def open(pos)
