@@ -40,4 +40,12 @@ class SquareTest < Test::Unit::TestCase
     @square.mine!
     assert_equal('*', @square.symbol)
   end
+
+
+  #지뢰위에 flag 꽂기
+  test '지뢰위에 flag 꽂기'do
+    @square.mine!
+    @square.flag!
+    assert_true(@square.flag);
+  end
 end

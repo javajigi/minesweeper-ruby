@@ -1,12 +1,17 @@
 class Square
 
-  attr_accessor :near_mine_num
-  attr_reader :mined, :opened
+  attr_reader :mined, :opened, :near_mine_num, :flag
 
   def initialize
     @mined = false
     @opened = false
     @near_mine_num = 0
+    @flag = false
+  end
+
+
+  def flag!
+    @flag = true
   end
 
   def mine!
