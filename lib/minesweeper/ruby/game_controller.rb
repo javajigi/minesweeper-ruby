@@ -16,8 +16,8 @@ class GameController
     Row.cell_num = i
   end
 
-
   def run
+    rand_mines
     until @board.win?
       puts @board, '어느 곳을 열어보시겠습니까?'
       position = Position.position_from_get
@@ -26,5 +26,12 @@ class GameController
       @board.open_near(position) if @board.safe?(position)
     end
     puts @board, '< Game Over >'
+  end
+
+  def rand_mines
+    5.times.each do
+      position = Position.rand_position
+      @board.mine!(position)
+    end
   end
 end

@@ -7,7 +7,13 @@ class Position
   class << self
     def position_from_get
       x, y = gets.split(/,\s*/)
-      return self.new(x, y)
+      self.new(x, y)
+    end
+
+    def rand_position
+      x = rand*Board.row_num
+      y = rand*Row.cell_num
+      self.new(x, y)
     end
   end
 
@@ -35,6 +41,7 @@ class Position
     result << Position.new(@row, @cell+1) if Position.new(@row, @cell+1).valid?
     result
   end
+
 
   private
   def valid_row?
