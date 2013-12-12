@@ -39,6 +39,19 @@ class GridTest < Test::Unit::TestCase
     assert_equal(expect_result, @grid.print)
   end
 
+
+  test '(0, 0)에 지뢰를 설치할 때 주변 square의 주변 지뢰 숫자가 1씩 증가한다.' do
+    @grid.mine!(0,0)
+    square = @grid.get_square(1,0);
+    assert_equal(1,square.near_mine_num);
+  end
+
+  test '잘못된 위치의 square를 참조하고자 할 경우에는 IndexOutOfException을 발생시킨다.' do
+    assert_raise IndexOutOfBoundError do
+      @grid.get_square(-1, -1)
+    end
+  end
+
   #test '(1, 1)이 지뢰이고, (1, 1)을 open하면 주변의 지뢰 숫자가 공개된다.' do
   #  expect_result = "11"+"\n"+
   #                  "1*"+"\n"

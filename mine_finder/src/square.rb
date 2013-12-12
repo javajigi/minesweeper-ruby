@@ -1,8 +1,11 @@
 class Square
 
+  attr_accessor :near_mine_num
+
   def initialize
     @mined = false
     @opened = false
+    @near_mine_num = 0
   end
 
   def mine!
@@ -36,4 +39,9 @@ class Square
       end
     end
   end
+
+  def increase_near_mine_num
+    @near_mine_num +=1
+  end
+
 end
