@@ -35,7 +35,7 @@ class Square
       if @mined
         return '*'
       else
-        return '0'
+        return @near_mine_num.to_s
       end
     end
   end
