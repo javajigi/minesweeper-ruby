@@ -35,4 +35,12 @@ class CellTest < Test::Unit::TestCase
     assert_true @cell.flag?
   end
 
+  test '마인에 플래그를 꼽으면 이긴다' do
+    @cell.flag!
+    assert_false @cell.win?
+
+    @cell.mine!
+    assert_true @cell.win?
+  end
+
 end
