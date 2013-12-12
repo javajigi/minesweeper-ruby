@@ -11,3 +11,5 @@ Complete List
 
 Grid를 초기화한다. => row, col
 (1, 1)이 지뢰이고, (1, 1)을 open하면 게임에 진다.
+Grid 출력기능 완료.
+open, setMine기능 리팩토링

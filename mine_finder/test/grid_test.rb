@@ -33,9 +33,9 @@ class GridTest < Test::Unit::TestCase
     #0,0 마인설치 & 오픈후 출력
     expect_result = "* "+"\n"+
         "  "+"\n"
-    square = @grid.get_square(0,0)
-    square.mine!
-    square.open!
+
+    @grid.mine!(0,0)
+    @grid.open!(0,0)
     assert_equal(expect_result, @grid.print)
   end
 

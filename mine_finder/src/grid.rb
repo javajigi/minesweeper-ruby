@@ -15,6 +15,16 @@ class Grid
     return @rows[x][y]
   end
 
+  def mine!(x, y)
+    square = get_square(x, y)
+    square.mine!
+  end
+
+  def open!(x, y)
+    square = get_square(x, y)
+    square.open!
+  end
+
   def print
     grid_status = ""
     @rows.each do |row|
