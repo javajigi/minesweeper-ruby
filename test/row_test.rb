@@ -27,4 +27,10 @@ class RowTest < Test::Unit::TestCase
     assert_equal 0, @row.near_mine_num(Position.new(0, 2))
   end
 
+  test '0번째 셀 플래그 꽂기' do
+    @row.flag!(Position.new(0, 0))
+    assert_true @row.flag?(Position.new(0, 0))
+    assert_false @row.flag?(Position.new(0, 1))
+    assert_false @row.flag?(Position.new(0, 2))
+  end
 end

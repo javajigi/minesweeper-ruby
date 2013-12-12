@@ -30,6 +30,14 @@ class Row
     pos_to_cell(pos) { |cell| cell.mine? }
   end
 
+  def flag!(pos)
+    pos_to_cell(pos) {|cell| cell.flag!}
+    end
+
+  def flag?(pos)
+    pos_to_cell(pos) {|cell| cell.flag?}
+  end
+
   def win?
     @cells.inject(true) { |result, cell| result && cell.win? }
   end
