@@ -16,15 +16,11 @@ class GameController
     Row.cell_num = i
   end
 
-  def parse(str)
-    str.split(/,\s*/)
-  end
 
   def run
     until @board.win?
       puts @board, '어느 곳을 열어보시겠습니까?'
-      x, y = parse(gets)
-      position = Position.new(x, y)
+      position = Position.position_from_get
       break if @board.mine?(position)
       @board.open(position)
       @board.open_near(position) if @board.safe?(position)

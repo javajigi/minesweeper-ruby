@@ -4,6 +4,13 @@ require 'row'
 class Position
   attr_reader :row, :cell
 
+  class << self
+    def position_from_get
+      x, y = gets.split(/,\s*/)
+      return self.new(x, y)
+    end
+  end
+
   def initialize(x, y)
     @row = x.to_i
     @cell = y.to_i
