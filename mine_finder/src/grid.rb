@@ -28,12 +28,19 @@ class Grid
         get_square(row, col).increase_near_mine_num unless out_of_index?(row, col)
       end
     end
-
   end
 
   def open!(x, y)
     square = get_square(x, y)
     square.open!
+
+    # eternel loop!!!
+    #(x-1..x+1).each do |row|
+    #  (y-1..y+1).each do |col|
+    #    next if out_of_index?(row, col)
+    #    open!(row,col) if get_square(row, col).is_near_mine_num_zero?
+    #  end
+    #end
   end
 
   def out_of_index?(x, y)

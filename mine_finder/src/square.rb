@@ -44,4 +44,7 @@ class Square
     @near_mine_num +=1
   end
 
+  def is_near_mine_num_zero?
+    @near_mine_num == 0
+  end
 end

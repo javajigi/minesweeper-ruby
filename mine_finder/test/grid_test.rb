@@ -61,5 +61,11 @@ class GridTest < Test::Unit::TestCase
     assert_equal(expect_result, @grid.print)
   end
 
+  test '모두 지뢰가 아닌 경우 특정 위치 하나를 open하면 모든 square가 open된다. win 상태' do
+    expect_result = "00"+"\n"+
+        "00"+"\n"
 
+    @grid.open!(0,0)
+    assert_equal(expect_result, @grid.print)
+  end
 end
