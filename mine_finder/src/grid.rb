@@ -23,16 +23,24 @@ class Grid
     square = get_square(x, y)
     square.mine!
 
-    (x-1..x+1).each do |row|
-      (y-1..y+1).each do |col|
-        get_square(row, col).increase_near_mine_num unless out_of_index?(row, col)
-      end
+    near_squares = Array.new
+    near_squares = get_near_squares(x, y)
+
+    near_squares.each do |square|
+      square.increase_near_mine_num
     end
   end
 
   def open!(x, y)
     square = get_square(x, y)
     square.open!
+
+    near_squares = Array.new
+    near_squares = get_near_squares(x, y)
+
+    near_squares.each do |square|
+      square.open! if square.is_near_mine_num_zero?
+    end
 
     # eternel loop!!!
     #(x-1..x+1).each do |row|
@@ -57,5 +65,16 @@ class Grid
     end
     puts grid_status
     return grid_status
+  end
+
+  def get_near_squares(x, y)
+    arr = Array.new
+
+    (x-1..x+1).each do |row|
+      (y-1..y+1).each do |col|
+        arr << get_square(row, col) unless out_of_index?(row, col)
+      end
+    end
+    return arr
   end
 end
