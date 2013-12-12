@@ -42,11 +42,11 @@ class GridTest < Test::Unit::TestCase
   #test '(1, 1)이 지뢰이고, (1, 1)을 open하면 주변의 지뢰 숫자가 공개된다.' do
   #  expect_result = "11"+"\n"+
   #                  "1*"+"\n"
-  #
-  #  square = @grid.get_square(1,1)
-  #  square.mine!
-  #  square.open!
+  #  @grid.mine!(1,1);
+  #  @grid.open!(1,1);
   #
   #  assert_equal(expect_result, @grid.print)
   #end
+
+
 end
