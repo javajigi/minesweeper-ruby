@@ -14,12 +14,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/mine_finder@test_adder.coverage" NAME="test_adder Coverage Results" MODIFIED="1386256579648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/.rvm/gems/ruby-2.0.0-p247/gems/test-unit-2.5.5/sample" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@test____mine_finder.coverage" NAME="test_판_초기화: mine_finder Coverage Results" MODIFIED="1386288172005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
-    <SUITE FILE_PATH="coverage/mine_finder@Run_test__GridTest___mine_finder.coverage" NAME="Run test 'GridTest': mine_finder Coverage Results" MODIFIED="1386605427511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
+    <SUITE FILE_PATH="coverage/mine_finder@Run_test__GridTest___mine_finder.coverage" NAME="Run test 'GridTest': mine_finder Coverage Results" MODIFIED="1386854397975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@Run_test__board_test___mine_finder.coverage" NAME="Run test 'board_test': mine_finder Coverage Results" MODIFIED="1386512425561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
-    <SUITE FILE_PATH="coverage/mine_finder@Run_test__square_test___mine_finder.coverage" NAME="Run test 'square_test': mine_finder Coverage Results" MODIFIED="1386605369514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@Run_test__BoardTest___mine_finder.coverage" NAME="Run test 'BoardTest': mine_finder Coverage Results" MODIFIED="1386256351985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
-    <SUITE FILE_PATH="coverage/mine_finder@test_Grid_2x2____mine_finder.coverage" NAME="test_Grid를_2x2로_초기화한다.: mine_finder Coverage Results" MODIFIED="1386605389187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
+    <SUITE FILE_PATH="coverage/mine_finder@Run_test__square_test___mine_finder.coverage" NAME="Run test 'square_test': mine_finder Coverage Results" MODIFIED="1386605369514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
     <SUITE FILE_PATH="coverage/mine_finder@test_abb__mine_finder.coverage" NAME="test_abb: mine_finder Coverage Results" MODIFIED="1386310822591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
+    <SUITE FILE_PATH="coverage/mine_finder@test_Grid_2x2____mine_finder.coverage" NAME="test_Grid를_2x2로_초기화한다.: mine_finder Coverage Results" MODIFIED="1386605389187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="mine_finder" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -45,7 +45,7 @@
       <file leaf-file-name="square.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/square.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="660">
+            <state line="16" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -54,25 +54,25 @@
       <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+            <state line="23" column="20" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid_test.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grid_test.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="38" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.4582393" vertical-offset="367" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="week2.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="week2.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week2.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="35" selection-start="63" selection-end="63" vertical-scroll-proportion="0.098468274" vertical-offset="0" max-vertical-offset="457">
+            <state line="4" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -98,11 +98,11 @@
         <option value="$PROJECT_DIR$/week1.md" />
         <option value="$PROJECT_DIR$/lib/mine_finder.rb" />
         <option value="$PROJECT_DIR$/test/helper.rb" />
-        <option value="$PROJECT_DIR$/src/square.rb" />
         <option value="$PROJECT_DIR$/test/square_test.rb" />
-        <option value="$PROJECT_DIR$/src/grid.rb" />
-        <option value="$PROJECT_DIR$/test/grid_test.rb" />
         <option value="$PROJECT_DIR$/week2.md" />
+        <option value="$PROJECT_DIR$/src/grid.rb" />
+        <option value="$PROJECT_DIR$/src/square.rb" />
+        <option value="$PROJECT_DIR$/test/grid_test.rb" />
       </list>
     </option>
   </component>
@@ -138,6 +138,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,7 +219,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,11 +505,10 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22214484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.348659" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39846742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32796487" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -517,9 +516,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -539,6 +539,41 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/square_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="511" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/square.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="195">
@@ -555,30 +590,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
-          <folding />
-        </state>
+        <state line="12" column="16" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/mine_finder/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/mine_finder.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="5" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/mine_finder.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
@@ -647,58 +674,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/mine_finder/version.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/minitest/unit.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1439" column="67" selection-start="37642" selection-end="37703" vertical-scroll-proportion="0.23667377" vertical-offset="21474" max-vertical-offset="22245">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="50" selection-end="50" vertical-scroll-proportion="0.063424945" vertical-offset="0" max-vertical-offset="473">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/rb/testing/patch/testunit/test/unit/ui/teamcity/testrunner.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.33195022" vertical-offset="1040" max-vertical-offset="2010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week1.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="57" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="1439" column="67" selection-start="37642" selection-end="37703" vertical-scroll-proportion="0.23667377" vertical-offset="21474" max-vertical-offset="22245" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/mine_finder.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
+        <state line="4" column="3" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="1" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/square.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="660">
-          <folding />
-        </state>
+        <state line="5" column="1" selection-start="137" selection-end="137" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/square_test.rb">
@@ -708,23 +699,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grid.rb">
+    <entry file="file://$APPLICATION_HOME_DIR$/rb/testing/patch/testunit/test/unit/ui/teamcity/testrunner.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="92" column="0" selection-start="2530" selection-end="2530" vertical-scroll-proportion="0.33195022" vertical-offset="1220" max-vertical-offset="2010" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+    <entry file="file://$PROJECT_DIR$/week1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="11" column="27" selection-start="274" selection-end="274" vertical-scroll-proportion="0.36105034" vertical-offset="0" max-vertical-offset="457" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="50" selection-end="50" vertical-scroll-proportion="0.04109589" vertical-offset="0" max-vertical-offset="730">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="35" selection-start="63" selection-end="63" vertical-scroll-proportion="0.098468274" vertical-offset="0" max-vertical-offset="457">
+        <state line="4" column="47" selection-start="121" selection-end="121" vertical-scroll-proportion="-2.4" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/square.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="745" selection-end="745" vertical-scroll-proportion="0.4582393" vertical-offset="367" max-vertical-offset="855">
           <folding />
         </state>
       </provider>

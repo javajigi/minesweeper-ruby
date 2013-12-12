@@ -16,9 +16,37 @@ class GridTest < Test::Unit::TestCase
   end
 
   test '(1, 1)이 지뢰이고, (1, 1)을 open하면 게임에 진다.' do
-    square = @grid.get_square(1,1);
+    square = @grid.get_square(1,1)
     square.mine!
     square.open!
     assert_false(square.win?)
   end
+
+  test 'Grid 출력 테스트' do
+
+    #초기화 출력테스트
+    expect_result = "  "+"\n"+
+                    "  "+"\n"
+    assert_equal(expect_result, @grid.print)
+
+
+    #0,0 마인설치 & 오픈후 출력
+    expect_result = "* "+"\n"+
+        "  "+"\n"
+    square = @grid.get_square(0,0)
+    square.mine!
+    square.open!
+    assert_equal(expect_result, @grid.print)
+  end
+
+  #test '(1, 1)이 지뢰이고, (1, 1)을 open하면 주변의 지뢰 숫자가 공개된다.' do
+  #  expect_result = "11"+"\n"+
+  #                  "1*"+"\n"
+  #
+  #  square = @grid.get_square(1,1)
+  #  square.mine!
+  #  square.open!
+  #
+  #  assert_equal(expect_result, @grid.print)
+  #end
 end

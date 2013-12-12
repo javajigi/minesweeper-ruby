@@ -14,4 +14,16 @@ class Grid
   def get_square(x, y)
     return @rows[x][y]
   end
+
+  def print
+    grid_status = ""
+    @rows.each do |row|
+      row.each do |square|
+        grid_status += square.symbol
+      end
+      grid_status +="\n"
+    end
+    puts grid_status
+    return grid_status
+  end
 end
