@@ -29,4 +29,10 @@ class CellTest < Test::Unit::TestCase
     @cell.open
     assert_true @cell.win?
   end
+
+  test '플래그를 꼽는다' do
+    @cell.flag!
+    assert_true @cell.flag?
+  end
+
 end

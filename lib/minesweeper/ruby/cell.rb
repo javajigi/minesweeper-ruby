@@ -19,6 +19,14 @@ class Cell
     @mark == '*'
   end
 
+  def flag!
+    @mark = '!'
+  end
+
+  def flag?
+    @mark == '!'
+  end
+
   def open
     @mark = @near_mine_num
   end
