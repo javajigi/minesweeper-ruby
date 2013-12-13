@@ -1,12 +1,15 @@
 require_relative './square'
 require_relative './index_out_of_bound_error'
 require_relative './game_over_error'
+require_relative './size'
+require_relative './position'
 
 class Grid
   attr_reader :rows
 
-  def initialize (row, column)
-    @rows = Array.new(row) { Array.new(column) { |index| Square.new } }
+  def initialize (size)
+    @size = size
+    @rows = Array.new(size.x) { Array.new(size.y) { |index| Square.new } }
   end
 
   def row
@@ -17,49 +20,56 @@ class Grid
     @rows[0].length
   end
 
-  def get_square (x, y)
-    raise IndexOutOfBoundError.new if out_of_index?(x, y)
-    @rows[x][y]
+  def get_square (position)
+    raise IndexOutOfBoundError.new if out_of_index?(position)
+    @rows[position.x][position.y]
   end
 
-  def open (x, y)
-    raise IndexOutOfBoundError.new if out_of_index?(x, y)
-    raise GameOverError.new if get_square(x, y).mined
+  def open(position)
+    square = get_square(position)
+    raise GameOverError.new if square.mined
 
-    return if get_square(x, y).opened
-    get_square(x, y).open
-    return unless get_square(x, y).zero_near_mine_num
+    return if square.opened
+    square.open
+    return unless square.zero_near_mine_num
 
-    near_squares_each(x, y) do |row, col|
-      open(row, col) unless out_of_index?(row, col)
+    near_squares_each(position) do |position|
+      open(position) unless out_of_index?(position)
     end
   end
 
-  def out_of_index?(x, y)
-    x < 0 or x >= row or y < 0 or y >= column
+  def out_of_index?(position)
+    not @size.valid_position?(position)
   end
 
-  def put_mine(x, y)
-    get_square(x, y).mine!
-    near_squares(x,y).each do |square|
+
+  def put_mine(position)
+    get_square(position).mine!
+    near_squares(position).each do |square|
       square.increase_near_mine_num
     end
   end
 
-  def near_squares(x, y)
+  def near_squares(position)
     arr = Array.new
 
-    near_squares_each(x, y) do |row, col|
-      arr << get_square(row, col) unless out_of_index?(row, col)
+    near_squares_each(position) do |position|
+      arr << get_square(position) unless out_of_index?(position)
     end
 
     return arr
   end
 
-  def near_squares_each(x, y)
+  def near_squares_each(position)
+    x = position.x
+    y = position.y
     (x-1..x+1).each do |row|
       (y-1..y+1).each do |col|
-        yield row, col
+        begin
+          yield Position.new(row, col)
+        rescue
+
+        end
       end
     end
   end
