@@ -9,6 +9,19 @@ class Position
     @y = y
   end
 
+  def near_each
+    near_x.each do |row|
+      near_y.each do |col|
+        yield row, col
+      end
+    end
+  end
+
+  def ==(other)
+    @x == other.x && @y == other.y
+  end
+
+  private
   def near_x
     (x-1..x+1)
   end
@@ -17,11 +30,6 @@ class Position
     (y-1..y+1)
   end
 
-  def ==(other)
-    @x == other.x && @y == other.y
-  end
-
-  private
   def valid?(value, i)
     value >= i
   end

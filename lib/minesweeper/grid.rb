@@ -50,12 +50,10 @@ class Grid
   end
 
   def near_positions_each(position)
-    position.near_x.each do |row|
-      position.near_y.each do |col|
-        begin
-          yield Position.new(row, col)
-        rescue
-        end
+    position.near_each do |row, col|
+      begin
+        yield Position.new(row, col)
+      rescue
       end
     end
   end
