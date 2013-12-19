@@ -13,8 +13,9 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/minesweeper-ruby@All_tests_in_test__minesweeper_ruby.coverage" NAME="All tests in test: minesweeper-ruby Coverage Results" MODIFIED="1386903900279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__position_test___minesweeper_ruby.coverage" NAME="Run test 'position_test': minesweeper-ruby Coverage Results" MODIFIED="1387483708197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@test___.coverage" NAME="test_스퀘어가_지뢰면_승 Coverage Results" MODIFIED="1386898247762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
-    <SUITE FILE_PATH="coverage/minesweeper-ruby@GridTest.coverage" NAME="GridTest Coverage Results" MODIFIED="1387482527503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@GridTest.coverage" NAME="GridTest Coverage Results" MODIFIED="1387483059220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,11 +31,8 @@
     <leaf>
       <file leaf-file-name="WEEK4.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WEEK4.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="330">
+            <state line="3" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding />
             </state>
           </provider>
@@ -43,25 +41,25 @@
       <file leaf-file-name="grid_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="24" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
+            <state line="63" column="24" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grid.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="25" selection-start="1111" selection-end="1130" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1440">
+            <state line="13" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.39553753" vertical-offset="0" max-vertical-offset="1440">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="position.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="position.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/position.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.63414633" vertical-offset="18" max-vertical-offset="615">
+            <state line="10" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
               <folding />
             </state>
           </provider>
@@ -70,7 +68,7 @@
       <file leaf-file-name="size.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/size.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="14" column="5" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -100,8 +98,8 @@
         <option value="$PROJECT_DIR$/WEEK4.md" />
         <option value="$PROJECT_DIR$/test/grid_test.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/size.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/position.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
       </list>
     </option>
   </component>
@@ -211,40 +209,7 @@
       <recent name="$PROJECT_DIR$/lib/minesweeper" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.GridTest">
-    <configuration default="false" name="test_스퀘어가_지뢰면_승" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
-      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
-      <module name="minesweeper-ruby" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/square_test.rb" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_스퀘어가_지뢰면_승" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <RunnerSettings RunnerId="RubyDebugRunner" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.Run test 'position_test': minesweeper-ruby">
     <configuration default="false" name="SquareTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="minesweeper-ruby" />
@@ -375,6 +340,37 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="Run test 'position_test': minesweeper-ruby" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="minesweeper-ruby" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$/test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/position_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="" />
@@ -457,19 +453,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_스퀘어가_지뢰면_승" />
-      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
-      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
-      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_지뢰를_열었을때_게임에_패배" />
-      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: minesweeper-ruby" />
+      <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
+      <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
+      <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_지뢰를_열었을때_게임에_패배" />
+      <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: minesweeper-ruby" />
+      <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'position_test': minesweeper-ruby" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
-        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: minesweeper-ruby" />
-        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_지뢰를_열었을때_게임에_패배" />
-        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
-        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_스퀘어가_지뢰면_승" />
+        <item index="0" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.Run test 'position_test': minesweeper-ruby" />
+        <item index="1" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.GridTest" />
+        <item index="2" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.All tests in test: minesweeper-ruby" />
+        <item index="3" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.test_지뢰를_열었을때_게임에_패배" />
+        <item index="4" class="java.lang.String" itemvalue="Test::Unit/Shoulda/Minitest.SquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -509,17 +505,17 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.146875" sideWeight="0.5741556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4244898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30942896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30810094" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -548,6 +544,41 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WEEK4.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="24" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.0" vertical-offset="945" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="25" selection-start="1111" selection-end="1130" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/position.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/size.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/minesweeper-ruby.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="41" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -578,11 +609,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/position_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="31" selection-end="77" vertical-scroll-proportion="0.029469548" vertical-offset="0" max-vertical-offset="509" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/index_out_of_bound_error.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="725">
@@ -593,16 +619,6 @@
     <entry file="file://$APPLICATION_HOME_DIR$/rb/testing/patch/testunit/test/unit/ui/teamcity/testrunner.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="46" selection-start="2407" selection-end="2407" vertical-scroll-proportion="0.39430895" vertical-offset="1036" max-vertical-offset="2010">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WEEK4.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.6666666" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
@@ -621,16 +637,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/test/position_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="25" selection-start="1111" selection-end="1130" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1440">
+        <state line="15" column="4" selection-start="417" selection-end="417" vertical-scroll-proportion="0.45638946" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/position.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="380" selection-end="380" vertical-scroll-proportion="0.63414633" vertical-offset="18" max-vertical-offset="615">
+        <state line="10" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEEK4.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.39553753" vertical-offset="0" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
