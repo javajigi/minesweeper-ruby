@@ -13,11 +13,11 @@ class Grid
   end
 
   def row
-    @rows.length
+    @size.height
   end
 
   def column
-    @rows[0].length
+    @size.width
   end
 
   def get_square (position)
@@ -41,7 +41,6 @@ class Grid
   def out_of_index?(position)
     not @size.valid_position?(position)
   end
-
 
   def put_mine(position)
     get_square(position).mine!
