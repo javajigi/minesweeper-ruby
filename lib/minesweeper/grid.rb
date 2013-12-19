@@ -9,7 +9,7 @@ class Grid
 
   def initialize (size)
     @size = size
-    @rows = Array.new(size.x) { Array.new(size.y) { Square.new } }
+    @rows = Array.new(size.height) { Array.new(size.width) { Square.new } }
   end
 
   def row
