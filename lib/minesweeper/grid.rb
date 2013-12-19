@@ -33,7 +33,7 @@ class Grid
     square.open
     return unless square.zero_near_mine_num
 
-    near_squares_each(position) do |position|
+    near_positions_each(position) do |position|
       open(position) unless out_of_index?(position)
     end
   end
@@ -45,29 +45,26 @@ class Grid
 
   def put_mine(position)
     get_square(position).mine!
-    near_squares(position).each do |square|
-      square.increase_near_mine_num
+    near_positions_each(position) do |position|
+      get_square(position).increase_near_mine_num unless out_of_index?(position)
     end
   end
 
-  def near_squares(position)
-    arr = Array.new
-
-    near_squares_each(position) do |position|
-      arr << get_square(position) unless out_of_index?(position)
-    end
-
-    return arr
-  end
-
-  def near_squares_each(position)
+  def near_positions_each(position)
     position.near_x.each do |row|
       position.near_y.each do |col|
         begin
           yield Position.new(row, col)
         rescue
-
         end
+      end
+    end
+  end
+
+  def all_squares_each
+    @rows.each do |row|
+      row.each do |square|
+        yield square
       end
     end
   end
@@ -79,13 +76,19 @@ class Grid
   def render
     status = ""
 
-    @rows.each do |row|
-      row.each do |square|
-        status += square.symbol
-      end
-      status += "\n"
+    all_squares_each do |square|
+      status += square.symbol
     end
 
-    return status
+    return insert_new_line(status)
+  end
+
+  def insert_new_line(status)
+    range = 3..row*column
+    range.step(4).each do |i|
+      status.insert(i, "\n")
+    end
+
+    return status+"\n"
   end
 end

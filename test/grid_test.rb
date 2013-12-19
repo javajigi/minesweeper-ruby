@@ -19,16 +19,9 @@ class GridTest < Test::Unit::TestCase
     assert_equal '0', @grid.get_square(@position).symbol
   end
 
-  def all_square_each
-    @grid.rows.each do |row|
-      row.each do |square|
-        yield square
-      end
-    end
-  end
 
   test '모두 지뢰일때 자동 승' do
-    all_square_each do |square|
+    @grid.all_squares_each do |square|
       square.mine!
     end
 
@@ -37,7 +30,7 @@ class GridTest < Test::Unit::TestCase
 
   test '오픈하면 주변 오픈' do
     @grid.open(@position)
-    all_square_each do |square|
+    @grid.all_squares_each do |square|
         assert_true square.opened
     end
   end
@@ -58,7 +51,7 @@ class GridTest < Test::Unit::TestCase
 
   test '마인 설치시 주변 스퀘어의 마인 개수를 1증가' do
     @grid.put_mine(@position)
-    @grid.near_squares_each(@position) do |position|
+    @grid.near_positions_each(@position) do |position|
       assert_equal 1, @grid.get_square(position).near_mine_num
     end
   end
