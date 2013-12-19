@@ -1,6 +1,6 @@
 * Bad smell 찾아 리팩토링 지속하기
-  * grid.rb의 near_squares_each 메서드를 보면 position에서 x, y 값을 꺼내오고 있다. grid에서 x, y를 모두 제거하고 싶다.
-  * grid_test에 많은 중복이 있는 듯하다. 중복 찾아서 제거해 보자.
+  /* grid.rb의 near_squares_each 메서드를 보면 position에서 x, y 값을 꺼내오고 있다. grid에서 x, y를 모두 제거하고 싶다.
+  /* grid_test에 많은 중복이 있는 듯하다. 중복 찾아서 제거해 보자.
   * x, y 좌표로 position 객체를 생성할 때 0 보다 작은 값일 경우 Exception을 throw 하는 것이 영 마음에 들지 않는다.
   * grid.rb의 row, column 메서드. 뭔가 찜찜하다. 여기도 뭔가 bad smell
   * grid.rb의 2차원 배열 생성하는 부분. 이 부분도 약간 냄새가 난다. 근데 뭔지는 잘 모르겠다.
