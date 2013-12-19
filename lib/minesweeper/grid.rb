@@ -61,10 +61,8 @@ class Grid
   end
 
   def near_squares_each(position)
-    x = position.x
-    y = position.y
-    (x-1..x+1).each do |row|
-      (y-1..y+1).each do |col|
+    position.near_x.each do |row|
+      position.near_y.each do |col|
         begin
           yield Position.new(row, col)
         rescue

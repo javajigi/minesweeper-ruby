@@ -9,6 +9,14 @@ class Position
     @y = y
   end
 
+  def near_x
+    (x-1..x+1)
+  end
+
+  def near_y
+    (y-1..y+1)
+  end
+
   def ==(other)
     @x == other.x && @y == other.y
   end
