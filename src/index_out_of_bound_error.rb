@@ -1,0 +1,2 @@
+class IndexOutOfBoundError < StandardError
+end
