@@ -13,6 +13,21 @@ class Position
     @x == other.x && @y == other.y
   end
 
+  def near_positions
+    arr = Array.new
+    (x-1..x+1).each do |x|
+      (y-1..y+1).each do |y|
+        begin
+         arr << Position.new(x, y)
+        rescue
+        end
+      end
+    end
+
+    arr.delete(self)
+    return arr
+  end
+
   private
   def valid?(value, i)
     value >= i

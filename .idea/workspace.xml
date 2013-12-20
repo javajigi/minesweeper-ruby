@@ -13,7 +13,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/minesweeper-ruby@test___.coverage" NAME="test_스퀘어가_지뢰면_승 Coverage Results" MODIFIED="1386898247762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
-    <SUITE FILE_PATH="coverage/minesweeper-ruby@All_tests_in_test__minesweeper_ruby.coverage" NAME="All tests in test: minesweeper-ruby Coverage Results" MODIFIED="1386903900279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@All_tests_in_test__minesweeper_ruby.coverage" NAME="All tests in test: minesweeper-ruby Coverage Results" MODIFIED="1387507554039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,7 +30,7 @@
       <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="23" selection-start="1257" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1470">
+            <state line="61" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1596">
               <folding />
             </state>
           </provider>
@@ -39,25 +39,28 @@
       <file leaf-file-name="WEEK4.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WEEK4.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="88" selection-start="493" selection-end="493" vertical-scroll-proportion="0.14851485" vertical-offset="0" max-vertical-offset="707">
+            <state line="13" column="26" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5626424" vertical-offset="0" max-vertical-offset="439">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="position_test.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/position_test.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WEEK3.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WEEK3.md">
+      <file leaf-file-name="helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="35" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="size.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/size.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="13" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
               <folding />
             </state>
           </provider>
@@ -66,7 +69,16 @@
       <file leaf-file-name="position.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/position.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="10" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="10" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="size.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/size.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
@@ -75,7 +87,7 @@
       <file leaf-file-name="size_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/size_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="8" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
               <folding />
             </state>
           </provider>
@@ -84,7 +96,7 @@
       <file leaf-file-name="grid_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="0" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="1395">
+            <state line="5" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
               <folding />
             </state>
           </provider>
@@ -101,7 +113,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/test/helper.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/index_out_of_bound_error.rb" />
         <option value="$PROJECT_DIR$/test/square_test.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/game_over_error.rb" />
@@ -109,13 +120,14 @@
         <option value="$PROJECT_DIR$/lib/minesweeper/square.rb" />
         <option value="$PROJECT_DIR$/WEEK2.md" />
         <option value="$PROJECT_DIR$/WEEK3.md" />
-        <option value="$PROJECT_DIR$/test/position_test.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/position.rb" />
-        <option value="$PROJECT_DIR$/test/size_test.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/size.rb" />
-        <option value="$PROJECT_DIR$/test/grid_test.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/size.rb" />
         <option value="$PROJECT_DIR$/WEEK4.md" />
+        <option value="$PROJECT_DIR$/test/size_test.rb" />
+        <option value="$PROJECT_DIR$/test/position_test.rb" />
+        <option value="$PROJECT_DIR$/test/grid_test.rb" />
+        <option value="$PROJECT_DIR$/test/helper.rb" />
       </list>
     </option>
   </component>
@@ -212,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FullScreen" value="false" />
@@ -498,27 +510,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1241" height="778" extended-state="0" />
+    <frame x="0" y="22" width="1241" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20547946" sideWeight="0.5741556" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19178082" sideWeight="0.5741556" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4244898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3106547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3102041" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32862645" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -543,6 +555,58 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="23" selection-start="1257" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEEK4.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="88" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WEEK3.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="35" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/size.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/position.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/size_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="18" selection-start="1302" selection-end="1303" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1470">
@@ -680,16 +744,6 @@
         <state line="2" column="58" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/position_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="31" selection-end="77" vertical-scroll-proportion="0.029469548" vertical-offset="0" max-vertical-offset="509" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.029469548" vertical-offset="0" max-vertical-offset="509" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/square.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="10" selection-start="87" selection-end="87" vertical-scroll-proportion="0.11787819" vertical-offset="0" max-vertical-offset="615" />
@@ -712,46 +766,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/position_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="0" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="1395">
+        <state line="3" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1007">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/size_test.rb">
+    <entry file="file://$PROJECT_DIR$/test/helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="13" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/position.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="10" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+        <state line="10" column="0" selection-start="206" selection-end="206" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/size.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+        <state line="3" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/size_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="23" selection-start="1257" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="1470">
+        <state line="61" column="0" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1596">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WEEK4.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="88" selection-start="493" selection-end="493" vertical-scroll-proportion="0.14851485" vertical-offset="0" max-vertical-offset="707">
+        <state line="13" column="26" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5626424" vertical-offset="0" max-vertical-offset="439">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
