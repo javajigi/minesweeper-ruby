@@ -24,14 +24,16 @@ class SquareTest < Test::Unit::TestCase
 
   end
 
-  test 'open되지 않은 스퀘어에 flag설치' do
+  test 'open되지 않은 스퀘어에 flag설치, symbol값 출력' do
     @square.flag!
     assert_true(@square.flaged)
+    assert_equal('?',@square.symbol)
   end
 
-  test 'open된 스퀘어에 flag설치' do
+  test 'open된 스퀘어에 flag설치, symbol값 출력' do
     @square.open!
     @square.flag!
     assert_false(@square.flaged)
+    assert_equal('0',@square.symbol)
   end
 end

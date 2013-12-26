@@ -21,12 +21,11 @@ class Square
   end
 
   def symbol
+    return '?' if @flaged
     return ' ' unless @opened
 
     if @mined
       '*'
-    elsif @flaged
-      '?'
     else
       near_mine_num.to_s
     end
