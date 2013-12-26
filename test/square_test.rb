@@ -13,14 +13,25 @@ class SquareTest < Test::Unit::TestCase
   end
 
   test '스퀘어가 오픈된 심볼을 출력' do
-    @square.open
+    @square.open!
     assert_equal '0', @square.symbol
   end
 
   test '지뢰인 스퀘어를 오픈했을 때의 심볼을 출력' do
     @square.mine!
-    @square.open
+    @square.open!
     assert_equal '*', @square.symbol
 
+  end
+
+  test 'open되지 않은 스퀘어에 flag설치' do
+    @square.flag!
+    assert_true(@square.flaged)
+  end
+
+  test 'open된 스퀘어에 flag설치' do
+    @square.open!
+    @square.flag!
+    assert_false(@square.flaged)
   end
 end
