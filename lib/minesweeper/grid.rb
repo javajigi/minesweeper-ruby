@@ -33,7 +33,7 @@ class Grid
     square.open
     return unless square.zero_near_mine_num
 
-    near_squares_each(position) do |position|
+    @size.near_positions_each(position) do |position|
       open(position) unless out_of_index?(position)
     end
   end
@@ -53,25 +53,11 @@ class Grid
   def near_squares(position)
     arr = Array.new
 
-    near_squares_each(position) do |position|
+    @size.near_positions_each(position) do |position|
       arr << get_square(position) unless out_of_index?(position)
     end
 
     return arr
-  end
-
-  def near_squares_each(position)
-    x = position.x
-    y = position.y
-    (x-1..x+1).each do |row|
-      (y-1..y+1).each do |col|
-        begin
-          yield Position.new(row, col)
-        rescue
-
-        end
-      end
-    end
   end
 
   def win?

@@ -11,4 +11,23 @@ class Size < Position
   def valid_position?(pos)
     @x > pos.x && @y > pos.y
   end
+
+  def near_squares_each(position)
+    arr = Array.new
+    arr = @size.near_squares(position);
+
+    arr.each do |square|
+      begin
+         yield square
+      rescue
+
+      end
+    end
+  end
+
+  def near_positions_each(position)
+    position.near_positions(position) do |position|
+      yield position
+    end
+  end
 end

@@ -13,6 +13,18 @@ class Position
     @x == other.x && @y == other.y
   end
 
+  def near_positions(position)
+    (@x-1..@x+1).each do |row|
+      (@y-1..@y+1).each do |col|
+        begin
+          yield Position.new(row, col)
+        rescue
+
+        end
+      end
+    end
+  end
+
   private
   def valid?(value, i)
     value >= i
