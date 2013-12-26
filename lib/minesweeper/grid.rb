@@ -10,7 +10,8 @@ class Grid
   def initialize (size, rand_mine_num)
     @size = size
     @rows = Array.new(size.x) { Array.new(size.y) { |index| Square.new } }
-    @mines = put_random_mine(rand_mine_num)
+    @mines = Array.new
+    put_random_mine(rand_mine_num)
   end
 
   def row
@@ -45,7 +46,9 @@ class Grid
 
 
   def put_mine(position)
-    get_square(position).mine!
+    square = get_square(position)
+    square.mine!
+    @mines << square
     near_squares(position).each do |square|
       square.increase_near_mine_num
     end
@@ -85,19 +88,14 @@ class Grid
   def put_random_mine(mine_num)
     return if mine_num <= 0
 
-    mines = Array.new
-
     srand(Time.now.usec)
     while ( mine_num != 0 )
       position = Position.new( rand(0..row-1), rand(0..column-1) )
       square = get_square(position);
       if ( not square.mined )
         put_mine(position)
-        mines << square
         mine_num -=1
       end
     end
-
-    return mines
   end
 end
