@@ -10,6 +10,7 @@ class Grid
   def initialize (size, rand_mine_num)
     @size = size
     @rows = Array.new(size.x) { Array.new(size.y) { |index| Square.new } }
+    put_random_mine(rand_mine_num)
   end
 
   def row
@@ -79,6 +80,8 @@ class Grid
 
   def put_random_mine(mine_num)
     return if mine_num <= 0
+
+    srand(Time.now.usec)
     while ( mine_num != 0 )
       position = Position.new( rand(0..row-1), rand(0..column-1) )
       if ( not get_square(position).mined )
