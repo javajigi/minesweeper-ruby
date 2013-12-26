@@ -5,12 +5,12 @@ require_relative './size'
 require_relative './position'
 
 class Grid
-  attr_reader :rows
+  attr_reader :rows, :mines
 
   def initialize (size, rand_mine_num)
     @size = size
     @rows = Array.new(size.x) { Array.new(size.y) { |index| Square.new } }
-    put_random_mine(rand_mine_num)
+    @mines = put_random_mine(rand_mine_num)
   end
 
   def row
@@ -31,7 +31,7 @@ class Grid
     raise GameOverError.new if square.mined
 
     return if square.opened
-    square.open
+    square.open!
     return unless square.zero_near_mine_num
 
     @size.near_positions_each(position) do |position|
@@ -62,7 +62,11 @@ class Grid
   end
 
   def win?
-    true
+    return true if @mines == nil
+    @mines.each do |square|
+      return false unless square.flaged
+    end
+    return true
   end
 
   def render
@@ -81,13 +85,19 @@ class Grid
   def put_random_mine(mine_num)
     return if mine_num <= 0
 
+    mines = Array.new
+
     srand(Time.now.usec)
     while ( mine_num != 0 )
       position = Position.new( rand(0..row-1), rand(0..column-1) )
-      if ( not get_square(position).mined )
+      square = get_square(position);
+      if ( not square.mined )
         put_mine(position)
+        mines << square
         mine_num -=1
       end
     end
+
+    return mines
   end
 end

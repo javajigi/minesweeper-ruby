@@ -98,13 +98,31 @@ class GridTest < Test::Unit::TestCase
 
     did_generate_mine_num = 0
 
-    (0...@grid.row).each do |row|
-      (0...@grid.column).each do |col|
-        did_generate_mine_num+=1 if @grid.get_square(Position.new(row, col)).mined
-      end
+    every_squares do |row, col|
+      did_generate_mine_num+=1 if @grid.get_square(Position.new(row, col)).mined
     end
 
     assert_equal(did_generate_mine_num, should_generate_mine_num)
   end
 
+  def every_squares
+    (0...@grid.row).each do |row|
+      (0...@grid.column).each do |col|
+        yield row, col
+      end
+    end
+  end
+
+  test '모든 지뢰의 위치에 flag가 설치되었을 경우, 게임에 승리한다' do
+    @grid = Grid.create_with_rand_mine( Size.new(3,3), 6)
+
+    mines = @grid.mines
+
+    mines.each do |square|
+      assert_false(@grid.win?)
+      square.flag!
+    end
+
+    assert_true(@grid.win?)
+  end
 end
