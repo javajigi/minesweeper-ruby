@@ -7,7 +7,7 @@ require_relative './position'
 class Grid
   attr_reader :rows
 
-  def initialize (size)
+  def initialize (size, rand_mine_num)
     @size = size
     @rows = Array.new(size.x) { Array.new(size.y) { |index| Square.new } }
   end

@@ -6,7 +6,7 @@ require 'minesweeper/game_over_error'
 
 class GridTest < Test::Unit::TestCase
   setup do
-    @grid = Grid.new(Size.new(2,2))
+    @grid = Grid.create(Size.new(2,2))
     @zero_by_zero = Position.create(0, 0)
   end
 
@@ -80,7 +80,7 @@ class GridTest < Test::Unit::TestCase
   end
 
   test '그리드의 현재 상태를 출력' do
-    @grid = Grid.new( Size.new(3,3) )
+    @grid = Grid.create( Size.new(3,3) )
     @grid.put_mine(@zero_by_zero)
     @grid.open(Position.create(2, 2))
 

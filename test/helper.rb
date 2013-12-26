@@ -11,3 +11,15 @@ class Position
     end
   end
 end
+
+class Grid
+  class << self
+    def create(size)
+      create_with_rand_mine(size, 0)
+    end
+
+    def create_with_rand_mine(size, rand_mine_num)
+      Grid.new(size, rand_mine_num);
+    end
+  end
+end
