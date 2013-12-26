@@ -27,7 +27,7 @@ class Size < Position
 
   def near_positions_each(position)
     position.near_positions(position) do |position|
-      yield position
+      yield position if valid_position?(position)
     end
   end
 end
