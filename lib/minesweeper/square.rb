@@ -1,9 +1,10 @@
 class Square
-  attr_reader :mined, :opened, :near_mine_num
+  attr_reader :mined, :flaged, :opened, :near_mine_num
 
   def initialize
     @mined = false
     @opened = false
+    @flaged = false
     @near_mine_num = 0
   end
 
@@ -11,7 +12,11 @@ class Square
     @mined = true
   end
 
-  def open
+  def flag!
+    @flaged = true unless opened
+  end
+
+  def open!
     @opened = true
   end
 
@@ -20,6 +25,8 @@ class Square
 
     if @mined
       '*'
+    elsif @flaged
+      '?'
     else
       near_mine_num.to_s
     end
