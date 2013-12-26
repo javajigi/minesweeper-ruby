@@ -86,4 +86,22 @@ class GridTest < Test::Unit::TestCase
 
     assert_equal " 10\n110\n000\n", @grid.render
   end
+
+  test '그리드에 랜덤마인 설치개수 테스트' do
+
+    should_generate_mine_num = 6
+    @grid = Grid.create( Size.new(should_generate_mine_num, should_generate_mine_num))
+
+    @grid.put_random_mine(should_generate_mine_num)
+    did_generate_mine_num = 0
+
+    (0...@grid.row).each do |row|
+      (0...@grid.column).each do |col|
+        did_generate_mine_num+=1 if @grid.get_square(Position.new(row, col)).mined
+      end
+    end
+
+    assert_equal(did_generate_mine_num, should_generate_mine_num)
+  end
+
 end

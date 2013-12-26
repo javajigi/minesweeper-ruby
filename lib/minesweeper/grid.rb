@@ -76,4 +76,15 @@ class Grid
 
     return status
   end
+
+  def put_random_mine(mine_num)
+    return if mine_num <= 0
+    while ( mine_num != 0 )
+      position = Position.new( rand(0..row-1), rand(0..column-1) )
+      if ( not get_square(position).mined )
+        put_mine(position)
+        mine_num -=1
+      end
+    end
+  end
 end
