@@ -87,7 +87,7 @@ class GridTest < Test::Unit::TestCase
     assert_equal " 10\n110\n000\n", @grid.render
   end
 
-  test '그리드에 랜덤마인 설치개수 테스트' do
+  test '그리드에 랜덤마인 설치개수, 마인별 위치 테스트' do
 
     should_generate_mine_num = 6
 
@@ -99,6 +99,16 @@ class GridTest < Test::Unit::TestCase
     did_generate_mine_num = @grid.mines.length
 
     assert_equal(did_generate_mine_num, should_generate_mine_num)
+
+    (0...@grid.row).each do |row|
+      (0...@grid.column).each do |col|
+        square = @grid.get_square(Position.new(row, col))
+        if ( square.mined )
+          assert_true(@grid.mines.include?(square))
+        end
+      end
+    end
+
   end
 
   test '모든 지뢰의 위치에 flag가 설치되었을 경우, 게임에 승리한다' do
