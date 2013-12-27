@@ -3,13 +3,15 @@ require_relative './index_out_of_bound_error'
 require_relative './game_over_error'
 require_relative './size'
 require_relative './position'
+require_relative './size_factory'
 
 class Grid
+  include SizeFactory
   attr_reader :rows
 
-  def initialize (size)
-    @size = size
-    @rows = Array.new(size.height) { Array.new(size.width) { Square.new } }
+  def initialize (x, y)
+    @size = create_size(x, y)
+    @rows = Array.new(@size.height) { Array.new(@size.width) { Square.new } }
   end
 
   def row

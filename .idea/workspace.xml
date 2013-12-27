@@ -12,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/minesweeper-ruby@All_tests_in_test__minesweeper_ruby.coverage" NAME="All tests in test: minesweeper-ruby Coverage Results" MODIFIED="1388105317452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
+    <SUITE FILE_PATH="coverage/minesweeper-ruby@All_tests_in_test__minesweeper_ruby.coverage" NAME="All tests in test: minesweeper-ruby Coverage Results" MODIFIED="1388106181255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@Run_test__position_test___minesweeper_ruby.coverage" NAME="Run test 'position_test': minesweeper-ruby Coverage Results" MODIFIED="1387483771806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@test___.coverage" NAME="test_스퀘어가_지뢰면_승 Coverage Results" MODIFIED="1386898247762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
     <SUITE FILE_PATH="coverage/minesweeper-ruby@GridTest.coverage" NAME="GridTest Coverage Results" MODIFIED="1387483059220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" MODULE_NAME="minesweeper-ruby" />
@@ -38,10 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid_test.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="grid_test.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="33" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.6963563" vertical-offset="721" max-vertical-offset="1215">
+            <state line="6" column="10" selection-start="139" selection-end="143" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="1215">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="size_factory.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/size_factory.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="12" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -56,10 +65,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grid.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="22" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1425">
+            <state line="13" column="49" selection-start="359" selection-end="359" vertical-scroll-proportion="0.3319838" vertical-offset="31" max-vertical-offset="1455">
               <folding />
             </state>
           </provider>
@@ -125,8 +134,9 @@
         <option value="$PROJECT_DIR$/WEEK4.md" />
         <option value="$PROJECT_DIR$/lib/minesweeper/size.rb" />
         <option value="$PROJECT_DIR$/test/size_test.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
         <option value="$PROJECT_DIR$/test/grid_test.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/size_factory.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
       </list>
     </option>
   </component>
@@ -768,16 +778,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="22" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1425">
+        <state line="6" column="10" selection-start="139" selection-end="143" vertical-scroll-proportion="-3.4615386" vertical-offset="0" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/grid_test.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/size_factory.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="33" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.6963563" vertical-offset="721" max-vertical-offset="1215">
+        <state line="2" column="12" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="49" selection-start="359" selection-end="359" vertical-scroll-proportion="0.3319838" vertical-offset="31" max-vertical-offset="1455">
           <folding />
         </state>
       </provider>

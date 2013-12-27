@@ -6,7 +6,7 @@ require 'minesweeper/game_over_error'
 
 class GridTest < Test::Unit::TestCase
   setup do
-    @grid = Grid.new(Size.new(2, 2))
+    @grid = Grid.new(2, 2)
     @position = Position.new(0, 0)
   end
 
@@ -56,7 +56,7 @@ class GridTest < Test::Unit::TestCase
   end
 
   test '그리드의 현재 상태를 출력' do
-    @grid = Grid.new(Size.new(3, 3))
+    @grid = Grid.new(3, 3)
     @grid.put_mine(@position)
     @grid.open(Position.new(2, 2))
 
@@ -64,7 +64,7 @@ class GridTest < Test::Unit::TestCase
   end
 
   test '랜덤 마인 심기' do
-    @grid = Grid.new(Size.new(3, 3))
+    @grid = Grid.new(3, 3)
     @grid.put_rand_mines
 
     result = 0
