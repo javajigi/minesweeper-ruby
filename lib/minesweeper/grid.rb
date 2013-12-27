@@ -45,6 +45,10 @@ class Grid
     end
   end
 
+  def put_rand_mines
+    position = @size.rand_position
+    put_mine(position)
+  end
 
   def win?
     true

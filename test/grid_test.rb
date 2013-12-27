@@ -62,4 +62,15 @@ class GridTest < Test::Unit::TestCase
 
     assert_equal " 10\n110\n000\n", @grid.render
   end
+
+  test '랜덤 마인 심기' do
+    @grid = Grid.new(Size.new(3, 3))
+    @grid.put_rand_mines
+
+    result = 0
+    @grid.send(:all_squares_each) do |square|
+      result += 1 if square.mined
+    end
+    assert_equal 1, result
+  end
 end
