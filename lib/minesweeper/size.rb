@@ -14,6 +14,12 @@ class Size < Position
     y
   end
 
+  def rand_position
+    x = (rand * width).to_i
+    y = (rand * height).to_i
+    Position.new(x, y)
+  end
+
   def out_of_index?(position)
     not valid_position?(position)
   end

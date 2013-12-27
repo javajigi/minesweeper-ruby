@@ -15,8 +15,14 @@ class SizeTest < Test::Unit::TestCase
 
   test '사이즈에 유효한 포지션을 체크' do
     size = Size.new(5,5)
-    pos = Position.new(3,3)
+    position = Position.new(3,3)
+    assert_false size.out_of_index?(position)
+  end
 
-    assert_false size.out_of_index?(pos)
+  test '랜덤 포지션 생성' do
+    size = Size.new(3, 3)
+    position = size.rand_position
+    assert_false size.out_of_index?(position)
+    puts position.inspect
   end
 end

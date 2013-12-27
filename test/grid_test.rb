@@ -19,7 +19,6 @@ class GridTest < Test::Unit::TestCase
     assert_equal '0', @grid.get_square(@position).symbol
   end
 
-
   test '모두 지뢰일때 자동 승' do
     @grid.send(:all_squares_each) do |square|
       square.mine!
