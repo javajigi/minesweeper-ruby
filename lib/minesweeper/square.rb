@@ -17,12 +17,8 @@ class Square
 
   def symbol
     return ' ' unless @opened
-
-    if @mined
-      '*'
-    else
-      near_mine_num.to_s
-    end
+    return '*' if @mined
+    near_mine_num.to_s
   end
 
   def increase_near_mine_num
