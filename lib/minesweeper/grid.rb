@@ -33,7 +33,7 @@ class Grid
     square.open
     return unless square.zero_near_mine_num
 
-    near_positions_each(position) do |position|
+    position.near_positions_each do |position|
       open(position) unless out_of_index?(position)
     end
   end
@@ -44,17 +44,8 @@ class Grid
 
   def put_mine(position)
     get_square(position).mine!
-    near_positions_each(position) do |position|
+    position.near_positions_each do |position|
       get_square(position).increase_near_mine_num unless out_of_index?(position)
-    end
-  end
-
-  def near_positions_each(position)
-    position.near_each do |row, col|
-      begin
-        yield Position.new(row, col)
-      rescue
-      end
     end
   end
 

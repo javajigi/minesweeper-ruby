@@ -13,4 +13,5 @@ class PositionTest < Test::Unit::TestCase
       Position.new(-1, -1)
     end
   end
- end
+end
+

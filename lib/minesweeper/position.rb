@@ -17,6 +17,17 @@ class Position
     end
   end
 
+  def near_positions_each
+    near_x.each do |row|
+      near_y.each do |col|
+        begin
+          yield Position.new(row, col)
+        rescue
+        end
+      end
+    end
+  end
+
   def ==(other)
     @x == other.x && @y == other.y
   end

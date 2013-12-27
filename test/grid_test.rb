@@ -51,7 +51,7 @@ class GridTest < Test::Unit::TestCase
 
   test '마인 설치시 주변 스퀘어의 마인 개수를 1증가' do
     @grid.put_mine(@position)
-    @grid.near_positions_each(@position) do |position|
+    @position.near_positions_each do |position|
       assert_equal 1, @grid.get_square(position).near_mine_num
     end
   end
