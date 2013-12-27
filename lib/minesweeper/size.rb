@@ -18,6 +18,7 @@ class Size < Position
     not valid_position?(position)
   end
 
+  private
   def valid_position?(pos)
     @x > pos.x && @y > pos.y
   end

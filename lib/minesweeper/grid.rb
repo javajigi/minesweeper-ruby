@@ -45,13 +45,6 @@ class Grid
     end
   end
 
-  def all_squares_each
-    @rows.each do |row|
-      row.each do |square|
-        yield square
-      end
-    end
-  end
 
   def win?
     true
@@ -62,14 +55,6 @@ class Grid
     return insert_new_line(status)
   end
 
-  def insert_new_line(status)
-    range = 3..row*column
-    range.step(4).each do |i|
-      status.insert(i, "\n")
-    end
-
-    return status+"\n"
-  end
 
   private
   def all_squares
@@ -80,5 +65,22 @@ class Grid
       end
     end
     result
+  end
+
+  def all_squares_each
+    @rows.each do |row|
+      row.each do |square|
+        yield square
+      end
+    end
+  end
+
+  def insert_new_line(status)
+    range = 3..row*column
+    range.step(4).each do |i|
+      status.insert(i, "\n")
+    end
+
+    return status+"\n"
   end
 end

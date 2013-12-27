@@ -17,7 +17,6 @@ class SizeTest < Test::Unit::TestCase
     size = Size.new(5,5)
     pos = Position.new(3,3)
 
-    assert_true(size.valid_position?(pos))
+    assert_false size.out_of_index?(pos)
   end
-
 end

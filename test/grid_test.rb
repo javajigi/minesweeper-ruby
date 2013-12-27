@@ -21,7 +21,7 @@ class GridTest < Test::Unit::TestCase
 
 
   test '모두 지뢰일때 자동 승' do
-    @grid.all_squares_each do |square|
+    @grid.send(:all_squares_each) do |square|
       square.mine!
     end
 
@@ -30,7 +30,7 @@ class GridTest < Test::Unit::TestCase
 
   test '오픈하면 주변 오픈' do
     @grid.open(@position)
-    @grid.all_squares_each do |square|
+    @grid.send(:all_squares_each) do |square|
         assert_true square.opened
     end
   end
