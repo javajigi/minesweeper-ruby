@@ -14,6 +14,10 @@ class Size < Position
     y
   end
 
+  def out_of_index?(position)
+    not valid_position?(position)
+  end
+
   def valid_position?(pos)
     @x > pos.x && @y > pos.y
   end

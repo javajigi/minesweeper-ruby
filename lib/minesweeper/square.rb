@@ -28,5 +28,4 @@ class Square
   def zero_near_mine_num
     @near_mine_num == 0
   end
-
 end

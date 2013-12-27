@@ -21,7 +21,7 @@ class Grid
   end
 
   def get_square (position)
-    raise IndexOutOfBoundError.new if out_of_index?(position)
+    raise IndexOutOfBoundError.new if @size.out_of_index?(position)
     @rows[position.x][position.y]
   end
 
@@ -34,18 +34,14 @@ class Grid
     return unless square.zero_near_mine_num
 
     position.near_positions_each do |position|
-      open(position) unless out_of_index?(position)
+      open(position) unless @size.out_of_index?(position)
     end
-  end
-
-  def out_of_index?(position)
-    not @size.valid_position?(position)
   end
 
   def put_mine(position)
     get_square(position).mine!
     position.near_positions_each do |position|
-      get_square(position).increase_near_mine_num unless out_of_index?(position)
+      get_square(position).increase_near_mine_num unless @size.out_of_index?(position)
     end
   end
 
