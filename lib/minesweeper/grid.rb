@@ -58,12 +58,7 @@ class Grid
   end
 
   def render
-    status = ""
-
-    all_squares_each do |square|
-      status += square.symbol
-    end
-
+    status = all_squares.inject("") { |result, square| result += square.symbol }
     return insert_new_line(status)
   end
 
@@ -74,5 +69,16 @@ class Grid
     end
 
     return status+"\n"
+  end
+
+  private
+  def all_squares
+    result = []
+    @rows.each do |row|
+      row.each do |square|
+        result << square
+      end
+    end
+    result
   end
 end
