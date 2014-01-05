@@ -3,8 +3,8 @@
 
 guard :rspec do
   watch(%r{^spec/models/(.+)_spec\.rb$})
-  watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
-  watch(%r{^lib/minesweeper/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
+  watch(%r{^lib/(.+)\.rb$})     { |m| "spec/models/#{m[1]}_spec.rb" }
+  watch(%r{^lib/minesweeper/(.+)\.rb$})     { |m| "spec/models/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')  { "spec" }
 end
 
