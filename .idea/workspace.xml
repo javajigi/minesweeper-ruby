@@ -53,7 +53,7 @@
       <file leaf-file-name="grid_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="3" selection-start="732" selection-end="732" vertical-scroll-proportion="0.6827586" vertical-offset="0" max-vertical-offset="725">
+            <state line="34" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.7034483" vertical-offset="0" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
@@ -327,7 +327,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="3" selection-start="732" selection-end="732" vertical-scroll-proportion="0.6827586" vertical-offset="0" max-vertical-offset="725">
+        <state line="34" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.7034483" vertical-offset="0" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>
