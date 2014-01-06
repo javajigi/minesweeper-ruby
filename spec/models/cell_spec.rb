@@ -25,7 +25,7 @@ describe 'Cell' do
       @cell.put_mine
       @cell.win?.should be_true
     end
-    it '마인이 발견되지 않아도 아직 이긴데 아니다' do
+    it '마인이 발견되지 않아도 아직 이긴게 아니다' do
       @cell.win?.should be_false
     end
   end

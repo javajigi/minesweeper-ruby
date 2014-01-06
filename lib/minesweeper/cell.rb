@@ -8,11 +8,11 @@ class Cell
   end
 
   def win?
-    (mine_detected? and not open?) or (not mine_detected? and open?)
+    (mine_detected? and not is_open?) or (not mine_detected? and is_open?)
   end
 
   private
-  def open?
+  def is_open?
     @open ||= false
   end
 

@@ -14,7 +14,7 @@ describe 'Grid' do
     end
   end
 
-  context '한 행 이상 이기지 않았을 경우' do
+  context '이기지 않은 행이 존재할 경우' do
     it '아직 이긴게 아니다' do
       @grid.should_receive(:rows) { [double('Row', win?: false), double('Row', win?: true)] }
       @grid.win?.should be_false
