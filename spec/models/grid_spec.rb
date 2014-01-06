@@ -1,5 +1,5 @@
 # encoding: utf-8
-require_relative '../spec_helper'
+require 'spec_helper'
 require 'minesweeper/grid'
 
 describe 'Grid' do
