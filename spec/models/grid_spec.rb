@@ -20,4 +20,13 @@ describe 'Grid' do
       @grid.win?.should be_false
     end
   end
+
+  it '셀에 마인을 심는다' do
+    position = double('Position', x: 0, y: 0)
+    row = double('Row')
+    row.should_receive(:put_mine).with(0)
+
+    @grid.should_receive(:rows) {[row, double('Row'), double('Row')]}
+    @grid.put_mine(position)
+  end
 end

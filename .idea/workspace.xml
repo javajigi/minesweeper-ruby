@@ -26,16 +26,16 @@
       <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="8" column="3" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid_spec.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grid_spec.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="5" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="25" column="23" selection-start="604" selection-end="604" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="725">
               <folding />
             </state>
           </provider>
@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="row_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/row_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="510" selection-end="510" vertical-scroll-proportion="0.45517242" vertical-offset="0" max-vertical-offset="725">
+            <state line="33" column="31" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="cell_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/cell_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+            <state line="21" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
               <folding />
             </state>
           </provider>
@@ -98,12 +98,12 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/models/test_spec.rb" />
         <option value="$PROJECT_DIR$/Guardfile" />
-        <option value="$PROJECT_DIR$/spec/models/grid_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/cell_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/cell.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/row.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
         <option value="$PROJECT_DIR$/spec/models/row_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/grid_spec.rb" />
       </list>
     </option>
   </component>
@@ -425,23 +425,9 @@
         <state line="16" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.17582418" vertical-offset="0" max-vertical-offset="1365" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/cell_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
+        <state line="21" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <folding />
         </state>
       </provider>
@@ -462,7 +448,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/row_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="510" selection-end="510" vertical-scroll-proportion="0.45517242" vertical-offset="0" max-vertical-offset="725">
+        <state line="33" column="31" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="23" selection-start="604" selection-end="604" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="725">
           <folding />
         </state>
       </provider>
