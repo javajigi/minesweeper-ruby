@@ -20,4 +20,18 @@ describe 'Row' do
       @row.win?.should be_false
     end
   end
+
+  it '셀에 마인을 심는다' do
+    cell = double('Cell')
+    cell.should_receive(:put_mine)
+    @row.should_receive(:cells) { [cell, double('Cell'), double('Cell')] }
+    @row.put_mine(0)
+  end
+
+  it '셀을 연다' do
+    cell = double('Cell')
+    cell.should_receive(:open)
+    @row.should_receive(:cells) { [cell, double('Cell'), double('Cell')] }
+    @row.open_cell(0)
+  end
 end
