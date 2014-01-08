@@ -29,4 +29,13 @@ describe 'Grid' do
     @grid.should_receive(:rows) {[row, double('Row'), double('Row')]}
     @grid.put_mine(position)
   end
+
+  it '셀을 연다' do
+    position = double('Position', x: 0, y: 0)
+    row = double('Row')
+    row.should_receive(:open_cell).with(0)
+
+    @grid.should_receive(:rows) {[row, double('Row'), double('Row')]}
+    @grid.open_cell(position)
+  end
 end

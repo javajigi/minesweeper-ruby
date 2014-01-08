@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="grid.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="12" column="3" selection-start="254" selection-end="254" vertical-scroll-proportion="0.24827586" vertical-offset="0" max-vertical-offset="725">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="grid_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="23" selection-start="604" selection-end="604" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="725">
+            <state line="36" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
               <folding />
             </state>
           </provider>
@@ -101,9 +101,9 @@
         <option value="$PROJECT_DIR$/spec/models/cell_spec.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/cell.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/row.rb" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
         <option value="$PROJECT_DIR$/spec/models/row_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/grid_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
       </list>
     </option>
   </component>
@@ -453,16 +453,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="36" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="23" selection-start="604" selection-end="604" vertical-scroll-proportion="0.51724136" vertical-offset="0" max-vertical-offset="725">
+        <state line="12" column="3" selection-start="254" selection-end="254" vertical-scroll-proportion="0.24827586" vertical-offset="0" max-vertical-offset="725">
           <folding />
         </state>
       </provider>
