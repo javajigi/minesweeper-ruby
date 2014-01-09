@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="grid.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/base.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grid_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
+      <file leaf-file-name="base_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/base_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="7" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+            <state line="6" column="17" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/minesweeper/position_service/base.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="15" selection-start="529" selection-end="529" vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="725">
+            <state line="11" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -71,49 +71,44 @@
       <file leaf-file-name="base_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/position_service/base_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="62" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="1095">
+            <state line="44" column="62" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="row.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/row.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="2" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+            <state line="14" column="3" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="row_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/row_spec.rb">
+      <file leaf-file-name="row_spec.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/row_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <folding>
-                <marker date="1389213594000" expanded="true" signature="82:357" placeholder="do ... end" />
-              </folding>
+            <state line="15" column="22" selection-start="369" selection-end="369" vertical-scroll-proportion="0.32051283" vertical-offset="0" max-vertical-offset="702">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="cell.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
+        <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/cell.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="24" column="3" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="cell_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/cell_spec.rb">
+        <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/cell_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-              <folding>
-                <marker date="1389235824000" expanded="true" signature="265:435" placeholder="do ... end" />
-                <marker date="1389235824000" expanded="true" signature="465:824" placeholder="do ... end" />
-              </folding>
+            <state line="6" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,18 +134,25 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/models/test_spec.rb" />
         <option value="$PROJECT_DIR$/Guardfile" />
-        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
         <option value="$PROJECT_DIR$/spec/models/row_spec.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/row.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/cell.rb" />
         <option value="$PROJECT_DIR$/spec/models/cell_spec.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/position.rb" />
-        <option value="$PROJECT_DIR$/spec/models/grid_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/position_spec.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/position_service/position.rb" />
         <option value="$PROJECT_DIR$/spec/models/position_service/position_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/position_service/base_spec.rb" />
         <option value="$PROJECT_DIR$/lib/minesweeper/position_service/base.rb" />
+        <option value="$PROJECT_DIR$/spec/models/grid_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/grid.rb" />
+        <option value="$PROJECT_DIR$/spec/models/minesweeper_service/grid_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/minesweeper_service/base.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/minesweeper_service/cell.rb" />
+        <option value="$PROJECT_DIR$/lib/minesweeper/minesweeper_service/row.rb" />
+        <option value="$PROJECT_DIR$/spec/models/minesweeper_service/base_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/minesweeper_service/cell_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/minesweeper_service/row_spec.rb" />
       </list>
     </option>
   </component>
@@ -234,6 +236,10 @@
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="position_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -253,7 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="position_service" />
+              <option name="myItemId" value="minesweeper_service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -308,6 +314,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="position_service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minesweeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minesweeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minesweeper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minesweeper_service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,10 +350,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/models/minesweeper_service" />
+      <recent name="$PROJECT_DIR$/lib/minesweeper/minesweeper_service" />
       <recent name="$PROJECT_DIR$/spec/models/position_service" />
       <recent name="$PROJECT_DIR$/lib/minesweeper/position_service" />
       <recent name="$PROJECT_DIR$/spec" />
-      <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
   <component name="RunManager">
@@ -390,7 +419,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16015625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950467" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -422,14 +451,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="3" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/base_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="12" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="705">
           <folding />
@@ -450,110 +479,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/row.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/row_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/row_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="31" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="630">
-          <folding>
-            <marker date="1389213594000" expanded="true" signature="82:357" placeholder="do ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="14" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/cell_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/cell_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="555">
-          <folding>
-            <marker date="1389235824000" expanded="true" signature="265:435" placeholder="do ... end" />
-            <marker date="1389235824000" expanded="true" signature="465:824" placeholder="do ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="3" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/base_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="883" selection-end="883" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/row.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/row_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/row_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="31" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="630">
-          <folding>
-            <marker date="1389213594000" expanded="true" signature="82:357" placeholder="do ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="14" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="405">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/cell_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/cell_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="0" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="555">
-          <folding>
-            <marker date="1389235824000" expanded="true" signature="265:435" placeholder="do ... end" />
-            <marker date="1389235824000" expanded="true" signature="465:824" placeholder="do ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/row_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/row_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="420">
-          <folding>
-            <marker date="1389213594000" expanded="true" signature="82:357" placeholder="do ... end" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/row.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="62" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="405">
           <folding />
@@ -577,14 +594,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/base_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1215">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="10" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="210">
           <folding />
@@ -628,56 +645,9 @@
         <state line="16" column="0" selection-start="513" selection-end="513" vertical-scroll-proportion="0.17582418" vertical-offset="0" max-vertical-offset="1365" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/cell.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/row_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <marker date="1389213594000" expanded="true" signature="82:357" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/cell_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
-          <folding>
-            <marker date="1389235824000" expanded="true" signature="265:435" placeholder="do ... end" />
-            <marker date="1389235824000" expanded="true" signature="465:824" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/row.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="2" selection-start="202" selection-end="202" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/minesweeper/position_service/position.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="24" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/grid_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="7" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/position_service/base_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="62" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
@@ -689,16 +659,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/grid.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/position_service/base.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="11" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/minesweeper/position_service/base.rb">
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/cell.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="15" selection-start="529" selection-end="529" vertical-scroll-proportion="0.35172415" vertical-offset="0" max-vertical-offset="725">
+        <state line="24" column="3" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/row.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/minesweeper/minesweeper_service/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/position_service/base_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="62" selection-start="1391" selection-end="1391" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/base_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/cell_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/minesweeper_service/row_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="369" selection-end="369" vertical-scroll-proportion="0.32051283" vertical-offset="0" max-vertical-offset="702">
           <folding />
         </state>
       </provider>

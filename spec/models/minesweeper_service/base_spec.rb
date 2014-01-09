@@ -1,10 +1,10 @@
 # encoding: utf-8
 require 'spec_helper'
-require 'minesweeper/grid'
+require 'minesweeper/minesweeper_service/base'
 
 describe 'Grid는' do
   before :each do
-    @grid = Grid.new
+    @grid = MinesweeperService::Base.new
     @row = double('Row')
     @grid.stub(:rows_at) { @row }
     @position = double('Position', x: 0, y: 0)

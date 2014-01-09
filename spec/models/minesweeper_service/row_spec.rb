@@ -1,10 +1,10 @@
 #encoding: utf-8
 require 'spec_helper'
-require 'minesweeper/row'
+require 'minesweeper/minesweeper_service/row'
 
 describe 'Row는' do
   before :each do
-    @row = Row.new
+    @row = MinesweeperService::Row.new
   end
 
   context '모든 Cell이 클리어 상태이면' do

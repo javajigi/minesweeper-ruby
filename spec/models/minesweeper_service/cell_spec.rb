@@ -1,10 +1,10 @@
 #encoding: utf-8
 require 'spec_helper'
-require 'minesweeper/cell'
+require 'minesweeper/minesweeper_service/cell'
 
-describe '셀은' do
+describe 'Cell은' do
   before :each do
-    @cell = Cell.new
+    @cell = MinesweeperService::Cell.new
   end
 
   context '지뢰가 있을 경우' do
