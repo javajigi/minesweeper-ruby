@@ -4,11 +4,12 @@ class Cell
   end
 
   def open
+    raise "GameOver" if mine_detected?
     @open = true
   end
 
-  def win?
-    (mine_detected? and not is_open?) or (not mine_detected? and is_open?)
+  def clear?
+    is_open? or mine_detected?
   end
 
   private

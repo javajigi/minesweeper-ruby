@@ -2,31 +2,49 @@
 require 'spec_helper'
 require 'minesweeper/cell'
 
-describe 'Cell' do
+describe '셀은' do
   before :each do
     @cell = Cell.new
   end
 
-  context '열었을 경우' do
-    it '마인이 발견되면 진다' do
+  context '지뢰가 있을 경우' do
+    before :each do
       @cell.put_mine
-      @cell.open
-      @cell.win?.should be_false
     end
 
-    it '마인이 발견되지 않으면 이긴다' do
-      @cell.open
-      @cell.win?.should be_true
+    context '+열려 있을 경우' do
+    end
+
+    context '+닫혀 있을 경우' do
+      it '열면 게임 오버' do
+        expect { @cell.open }.to raise_error("GameOver")
+      end
+
+      it '클리어 상태이다' do
+        @cell.clear?.should be_true
+      end
     end
   end
 
-  context '열지 않았을 경우' do
-    it '마인이 발견되면 이긴다' do
-      @cell.put_mine
-      @cell.win?.should be_true
+  context '지뢰가 없을 경우' do
+    context '+열려 있을 경우' do
+      before :each do
+        @cell.open
+      end
+
+      it '클리어 상태이다' do
+        @cell.clear?.should be_true
+      end
     end
-    it '마인이 발견되지 않아도 아직 이긴게 아니다' do
-      @cell.win?.should be_false
+
+    context '+닫혀 있을 경우' do
+      it '안전하게 열 수 있다' do
+        expect { @cell.open }.to_not raise_error
+      end
+
+      it '클리어 상태가 아니다' do
+        @cell.clear?.should be_false
+      end
     end
   end
 end

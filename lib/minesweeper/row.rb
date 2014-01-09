@@ -1,6 +1,6 @@
 class Row
-  def win?
-    self.cells.inject(true) { |result, cell| result and cell.win? }
+  def clear?
+    self.cells.inject(true) { |result, cell| result and cell.clear? }
   end
 
   def put_mine(i)
